@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Corey Runkel</title>
-    <link>/post/</link>
-      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <title>Blog | Corey Runkel</title>
+    <link>https://runkelcorey.github.io/post/</link>
+      <atom:link href="https://runkelcorey.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blog</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2019</copyright>
     <image>
-      <url>/img/icon-192.png</url>
-      <title>Posts</title>
-      <link>/post/</link>
+      <url>https://runkelcorey.github.io/img/icon-192.png</url>
+      <title>Blog</title>
+      <link>https://runkelcorey.github.io/post/</link>
     </image>
     
     <item>
       <title>Federal Register API</title>
-      <link>/post/federal-register-api/</link>
+      <link>https://runkelcorey.github.io/post/federal-register-api/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/post/federal-register-api/</guid>
+      <guid>https://runkelcorey.github.io/post/federal-register-api/</guid>
       <description>
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Corey Runkel</title>
-    <link>/authors/corey/</link>
-      <atom:link href="/authors/corey/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://runkelcorey.github.io/authors/corey/</link>
+      <atom:link href="https://runkelcorey.github.io/authors/corey/index.xml" rel="self" type="application/rss+xml" />
     <description>Corey Runkel</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2019</copyright>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Corey Runkel</title>
-      <link>/authors/corey/</link>
+      <link>https://runkelcorey.github.io/authors/corey/</link>
     </image>
     
     <item>
       <title></title>
-      <link>/authors/corey/</link>
+      <link>https://runkelcorey.github.io/authors/corey/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/corey/</guid>
+      <guid>https://runkelcorey.github.io/authors/corey/</guid>
       <description>&lt;p&gt;Corey Runkel is a student at the University of Virginia and a Research Assistant at the Behavioral Research at Darden (BRAD) Lab. His interests are far too wide to be useful, but there are a few rabbit holes longer than the rest, namely political economy and communication.&lt;/p&gt;
 
 &lt;p&gt;Corey uses this website to flex his writing muscles,&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:The-very-same-hi&#34;&gt;&lt;a href=&#34;#fn:The-very-same-hi&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; document his work, and shout into the void the thoughts that occur to him while cooking pasta, climbing rocks, and distracting himself from whatever obstruse book is in his hands.&lt;/p&gt;
