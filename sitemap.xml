@@ -4,13 +4,13 @@
   
   <url>
     <loc>https://runkelcorey.github.io/categories/</loc>
-    <lastmod>2019-08-05T22:06:43-04:00</lastmod>
+    <lastmod>2019-08-05T22:25:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://runkelcorey.github.io/</loc>
-    <lastmod>2019-08-05T22:06:43-04:00</lastmod>
+    <lastmod>2019-08-05T22:25:37-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -20,8 +20,37 @@
   </url>
   
   <url>
+    <loc>https://runkelcorey.github.io/projects/open-data-package/</loc>
+    <lastmod>2019-08-05T22:25:37-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/projects/</loc>
+    <lastmod>2019-08-05T22:25:37-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/categories/r/</loc>
+    <lastmod>2019-08-05T22:25:37-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://runkelcorey.github.io/categories/meta/</loc>
     <lastmod>2019-08-05T22:06:43-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/categories/open-data/</loc>
+    <lastmod>2019-08-05T22:25:37-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/tags/api/</loc>
+    <lastmod>2019-08-03T22:29:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -31,13 +60,13 @@
   </url>
   
   <url>
-    <loc>https://runkelcorey.github.io/categories/r/</loc>
+    <loc>https://runkelcorey.github.io/tags/</loc>
     <lastmod>2019-08-03T22:29:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://runkelcorey.github.io/categories/open-data/</loc>
+    <loc>https://runkelcorey.github.io/tags/government-data/</loc>
     <lastmod>2019-08-03T22:29:51-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -57,6 +86,10 @@
   </url>
   
   <url>
+    <loc>https://runkelcorey.github.io/project/</loc>
+  </url>
+  
+  <url>
     <loc>https://runkelcorey.github.io/publication_types/</loc>
     <priority>0</priority>
   </url>
@@ -69,11 +102,6 @@
   <url>
     <loc>https://runkelcorey.github.io/talk/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://runkelcorey.github.io/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

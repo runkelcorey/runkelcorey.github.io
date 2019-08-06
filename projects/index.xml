@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Corey Runkel</title>
+    <link>https://runkelcorey.github.io/projects/</link>
+      <atom:link href="https://runkelcorey.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2019</copyright><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://runkelcorey.github.io/img/icon-192.png</url>
+      <title>Projects</title>
+      <link>https://runkelcorey.github.io/projects/</link>
+    </image>
+    
+    <item>
+      <title>Open Data Package</title>
+      <link>https://runkelcorey.github.io/projects/open-data-package/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/projects/open-data-package/</guid>
+      <description>
+
+
+&lt;p&gt;As detailed &lt;a href=&#34;%22post/federal-register-api%22&#34;&gt;here&lt;/a&gt;, I have found myself needing to write an API for the &lt;a href=&#34;https://www.federalregister.gov/&#34;&gt;Federal Register&lt;/a&gt;, an otherwise wonderful site. As I began writing, I found another gap—Esri webmaps—and so forth. This, I &lt;a href=&#34;https://github.com/jtleek/rpackages&#34;&gt;hear&lt;/a&gt;, is how packages come to be. So it is with mine.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
