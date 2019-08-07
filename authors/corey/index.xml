@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Corey Runkel</title>
-    <link>/authors/corey/</link>
-      <atom:link href="/authors/corey/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://runkelcorey.github.io/authors/corey/</link>
+      <atom:link href="https://runkelcorey.github.io/authors/corey/index.xml" rel="self" type="application/rss+xml" />
     <description>Corey Runkel</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2019</copyright>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Corey Runkel</title>
-      <link>/authors/corey/</link>
+      <link>https://runkelcorey.github.io/authors/corey/</link>
     </image>
     
     <item>
       <title></title>
-      <link>/authors/corey/</link>
+      <link>https://runkelcorey.github.io/authors/corey/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/corey/</guid>
-      <description>&lt;p&gt;Corey Runkel is a student at the University of Virginia and a Research Assistant at the Behavioral Research at Darden (BRAD) Lab. He finds himself down many a rabbit hole, but a few are longer than the rest, namely political economy and communication.&lt;/p&gt;
+      <guid>https://runkelcorey.github.io/authors/corey/</guid>
+      <description>&lt;p&gt;Corey Runkel is a student at the University of Virginia and a Research Assistant at the Behavioral Research at Darden (BRAD) Lab. His head can only be described as a DMZ of rabbit holes, some of which&amp;mdash;political economy and communication, for instance&amp;mdash;he has not been able to clamber out of.&lt;/p&gt;
 
-&lt;p&gt;Corey uses this website to flex his writing muscles (the very same his elementary school teachers warned would wear out with disuse), document his work, and spew thoughts that occur to him while cooking pasta, climbing rocks, and distracting himself from whatever obstruse book is in his hands.&lt;/p&gt;
+&lt;p&gt;Corey uses this website to exercise his writing muscles, document his work, and spew the thoughts that occur to him while cooking pasta, climbing rocks, and distracting himself from whatever obstruse book is in his backpack.&lt;/p&gt;
 </description>
     </item>
     

@@ -2,21 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Corey Runkel</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://runkelcorey.github.io/</link>
+      <atom:link href="https://runkelcorey.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Corey Runkel</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2019</copyright><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2019</copyright><lastBuildDate>Tue, 06 Aug 2019 21:42:21 -0400</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Corey Runkel</title>
-      <link>/</link>
+      <link>https://runkelcorey.github.io/</link>
     </image>
     
     <item>
+      <title>Open Data Package</title>
+      <link>https://runkelcorey.github.io/project/open-data-package/</link>
+      <pubDate>Tue, 06 Aug 2019 21:42:21 -0400</pubDate>
+      <guid>https://runkelcorey.github.io/project/open-data-package/</guid>
+      <description>&lt;p&gt;As detailed [here](&amp;ldquo;post/federal-register-api&amp;rdquo;), I have found myself needing to write an API for the &lt;a href=&#34;https://www.federalregister.gov/&#34; target=&#34;_blank&#34;&gt;Federal Register&lt;/a&gt;, an otherwise wonderful site. As I began writing, I found another gap&amp;mdash;Esri webmaps&amp;mdash;and so forth. This, I &lt;a href=&#34;https://github.com/jtleek/rpackages&#34; target=&#34;_blank&#34;&gt;hear&lt;/a&gt;, is how packages come to be. So it is with mine.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Meta</title>
-      <link>/meta/</link>
+      <link>https://runkelcorey.github.io/meta/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/meta/</guid>
+      <guid>https://runkelcorey.github.io/meta/</guid>
       <description>
 
 &lt;h2 id=&#34;style&#34;&gt;Style&lt;/h2&gt;
@@ -40,22 +49,10 @@
     </item>
     
     <item>
-      <title>Open Data Package</title>
-      <link>/2019/08/05/open-data-package/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/2019/08/05/open-data-package/</guid>
-      <description>
-
-
-&lt;p&gt;As detailed &lt;a href=&#34;%22post/federal-register-api%22&#34;&gt;here&lt;/a&gt;, I have found myself needing to write an API for the &lt;a href=&#34;https://www.federalregister.gov/&#34;&gt;Federal Register&lt;/a&gt;, an otherwise wonderful site. As I began writing, I found another gap—Esri webmaps—and so forth. This, I &lt;a href=&#34;https://github.com/jtleek/rpackages&#34;&gt;hear&lt;/a&gt;, is how packages come to be. So it is with mine.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Federal Register API</title>
-      <link>/2019/08/03/federal-register-api/</link>
+      <link>https://runkelcorey.github.io/2019/08/03/federal-register-api/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/2019/08/03/federal-register-api/</guid>
+      <guid>https://runkelcorey.github.io/2019/08/03/federal-register-api/</guid>
       <description>
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;

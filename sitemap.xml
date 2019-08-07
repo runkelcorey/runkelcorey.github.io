@@ -3,94 +3,100 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2019-08-05T22:46:39-04:00</lastmod>
+    <loc>https://runkelcorey.github.io/</loc>
+    <lastmod>2019-08-06T21:42:21-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-08-05T22:46:39-04:00</lastmod>
+    <loc>https://runkelcorey.github.io/project/open-data-package/</loc>
+    <lastmod>2019-08-06T21:42:21-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/project/</loc>
+    <lastmod>2019-08-06T21:42:21-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/meta/</loc>
-    <lastmod>2019-08-05T22:06:43-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2019/08/05/open-data-package/</loc>
-    <lastmod>2019-08-05T22:46:39-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2019-08-05T22:46:39-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/meta/</loc>
+    <loc>https://runkelcorey.github.io/categories/</loc>
     <lastmod>2019-08-05T22:06:43-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/open-data/</loc>
-    <lastmod>2019-08-05T22:46:39-04:00</lastmod>
+    <loc>https://runkelcorey.github.io/meta/</loc>
+    <lastmod>2019-08-05T22:06:43-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/categories/meta/</loc>
+    <lastmod>2019-08-05T22:06:43-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/api/</loc>
+    <loc>https://runkelcorey.github.io/tags/api/</loc>
     <lastmod>2019-08-03T22:29:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/2019/08/03/federal-register-api/</loc>
+    <loc>https://runkelcorey.github.io/2019/08/03/federal-register-api/</loc>
     <lastmod>2019-08-03T22:29:51-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-08-03T22:29:51-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/government-data/</loc>
+    <loc>https://runkelcorey.github.io/categories/r/</loc>
     <lastmod>2019-08-03T22:29:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/authors/corey/</loc>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
+    <loc>https://runkelcorey.github.io/tags/</loc>
+    <lastmod>2019-08-03T22:29:51-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://runkelcorey.github.io/tags/government-data/</loc>
+    <lastmod>2019-08-03T22:29:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/categories/open-data/</loc>
+    <lastmod>2019-08-03T22:29:51-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/authors/corey/</loc>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/authors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/post/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/publication_types/</loc>
+    <loc>https://runkelcorey.github.io/publication_types/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/publication/</loc>
+    <loc>https://runkelcorey.github.io/publication/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/talk/</loc>
+    <loc>https://runkelcorey.github.io/talk/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
