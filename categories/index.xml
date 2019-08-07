@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Corey Runkel</title>
-    <link>https://runkelcorey.github.io/categories/</link>
-      <atom:link href="https://runkelcorey.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/</link>
+      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2019</copyright><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://runkelcorey.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Categories</title>
-      <link>https://runkelcorey.github.io/categories/</link>
+      <link>/categories/</link>
     </image>
     
     <item>
       <title>meta</title>
-      <link>https://runkelcorey.github.io/categories/meta/</link>
+      <link>/categories/meta/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/categories/meta/</guid>
+      <guid>/categories/meta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>https://runkelcorey.github.io/categories/r/</link>
+      <link>/categories/r/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/categories/r/</guid>
+      <guid>/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>open data</title>
-      <link>https://runkelcorey.github.io/categories/open-data/</link>
+      <link>/categories/open-data/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/categories/open-data/</guid>
+      <guid>/categories/open-data/</guid>
       <description></description>
     </item>
     

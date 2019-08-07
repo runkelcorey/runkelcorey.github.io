@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | Corey Runkel</title>
-    <link>https://runkelcorey.github.io/post/</link>
-      <atom:link href="https://runkelcorey.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2019</copyright>
     <image>
-      <url>https://runkelcorey.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Blog</title>
-      <link>https://runkelcorey.github.io/post/</link>
+      <link>/post/</link>
     </image>
     
     <item>
       <title>Federal Register API</title>
-      <link>https://runkelcorey.github.io/2019/08/03/federal-register-api/</link>
+      <link>/2019/08/03/federal-register-api/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/2019/08/03/federal-register-api/</guid>
+      <guid>/2019/08/03/federal-register-api/</guid>
       <description>
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;

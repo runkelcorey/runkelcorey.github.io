@@ -2,29 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Corey Runkel</title>
-    <link>https://runkelcorey.github.io/tags/</link>
-      <atom:link href="https://runkelcorey.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/</link>
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2019</copyright><lastBuildDate>Sat, 03 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2019</copyright><lastBuildDate>Tue, 06 Aug 2019 21:42:21 -0400</lastBuildDate>
     <image>
-      <url>https://runkelcorey.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>Tags</title>
-      <link>https://runkelcorey.github.io/tags/</link>
+      <link>/tags/</link>
     </image>
     
     <item>
+      <title>APIs</title>
+      <link>/tags/apis/</link>
+      <pubDate>Tue, 06 Aug 2019 21:42:21 -0400</pubDate>
+      <guid>/tags/apis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Tue, 06 Aug 2019 21:42:21 -0400</pubDate>
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open data</title>
+      <link>/tags/open-data/</link>
+      <pubDate>Tue, 06 Aug 2019 21:42:21 -0400</pubDate>
+      <guid>/tags/open-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>API</title>
-      <link>https://runkelcorey.github.io/tags/api/</link>
+      <link>/tags/api/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/tags/api/</guid>
+      <guid>/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>government data</title>
-      <link>https://runkelcorey.github.io/tags/government-data/</link>
+      <link>/tags/government-data/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/tags/government-data/</guid>
+      <guid>/tags/government-data/</guid>
       <description></description>
     </item>
     
