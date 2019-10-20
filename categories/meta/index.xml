@@ -32,7 +32,7 @@
 &lt;li&gt;When employing free indirect discourse it is appropriate to include a question mark without ending a sentence&lt;/li&gt;
 &lt;li&gt;The Oxford comma creates ambiguities while clearing up none; it is disallowed&lt;/li&gt;
 &lt;li&gt;Unless conflicting with the formatting of the &lt;original&gt; quotation, notes within quotations should only occur as such: &amp;ldquo;&lt;strong&gt;[{note}]&lt;/strong&gt;&amp;ldquo;&lt;/li&gt;
-&lt;li&gt;Instead of double quotation marks, rarely used brackets in English (though often implemented in HTML), &amp;lt;&amp;lt;&amp;gt;&amp;gt;, denote terms that should be taken in another context, displacing quotation marks denoting distrust, sarcasm, or the inadequacy of language to convey full meanings&lt;/li&gt;
+&lt;li&gt;Instead of double quotation marks, rarely used tildes, ~, denote terms that should be taken in another context, displacing quotation marks denoting distrust, sarcasm, or the inadequacy of language to convey full meanings&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;This blog was published on &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; with &lt;a href=&#34;https://bookdown.org/yihui/blogdown/&#34; target=&#34;_blank&#34;&gt;Blogdown&lt;/a&gt; for &lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;R&lt;/a&gt;. All three are fantastic.&lt;/p&gt;

@@ -3,32 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://runkelcorey.github.io/2019/10/20/20-miles-later/</loc>
+    <lastmod>2019-10-20T15:51:08-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://runkelcorey.github.io/categories/</loc>
-    <lastmod>2019-09-12T18:06:30-04:00</lastmod>
+    <lastmod>2019-10-20T15:51:08-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://runkelcorey.github.io/</loc>
-    <lastmod>2019-09-12T18:06:30-04:00</lastmod>
+    <lastmod>2019-10-20T15:51:08-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/tags/</loc>
+    <lastmod>2019-10-20T15:51:08-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/categories/analysis/</loc>
+    <lastmod>2019-10-20T15:51:08-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/categories/fitness/</loc>
+    <lastmod>2019-10-20T15:51:08-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/tags/fitness/</loc>
+    <lastmod>2019-10-20T15:51:08-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/tags/marathon/</loc>
+    <lastmod>2019-10-20T15:51:08-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/tags/running/</loc>
+    <lastmod>2019-10-20T15:51:08-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://runkelcorey.github.io/2019/08/27/vertigo-1958/</loc>
     <lastmod>2019-09-12T18:06:30-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://runkelcorey.github.io/tags/</loc>
-    <lastmod>2019-09-12T18:06:30-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://runkelcorey.github.io/categories/analysis/</loc>
-    <lastmod>2019-09-12T18:06:30-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
