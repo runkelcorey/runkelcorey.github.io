@@ -5,12 +5,28 @@
     <link>https://runkelcorey.github.io/categories/</link>
       <atom:link href="https://runkelcorey.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2019</copyright><lastBuildDate>Sat, 16 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2019</copyright><lastBuildDate>Thu, 21 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Categories</title>
       <link>https://runkelcorey.github.io/categories/</link>
     </image>
+    
+    <item>
+      <title>analysis</title>
+      <link>https://runkelcorey.github.io/categories/analysis/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/categories/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>culture</title>
+      <link>https://runkelcorey.github.io/categories/culture/</link>
+      <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/categories/culture/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>fitness</title>
@@ -21,26 +37,10 @@
     </item>
     
     <item>
-      <title>analysis</title>
-      <link>https://runkelcorey.github.io/categories/analysis/</link>
-      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/categories/analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>film</title>
       <link>https://runkelcorey.github.io/categories/film/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://runkelcorey.github.io/categories/film/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>culture</title>
-      <link>https://runkelcorey.github.io/categories/culture/</link>
-      <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/categories/culture/</guid>
       <description></description>
     </item>
     
