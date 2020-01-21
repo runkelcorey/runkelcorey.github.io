@@ -5,12 +5,44 @@
     <link>https://runkelcorey.github.io/tags/</link>
       <atom:link href="https://runkelcorey.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2019</copyright><lastBuildDate>Sat, 30 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2020</copyright><lastBuildDate>Mon, 20 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://runkelcorey.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>cooking</title>
+      <link>https://runkelcorey.github.io/tags/cooking/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/tags/cooking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theory</title>
+      <link>https://runkelcorey.github.io/tags/theory/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/tags/theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drama</title>
+      <link>https://runkelcorey.github.io/tags/drama/</link>
+      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/tags/drama/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>movie review</title>
+      <link>https://runkelcorey.github.io/tags/movie-review/</link>
+      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/tags/movie-review/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>comedy</title>
@@ -21,26 +53,10 @@
     </item>
     
     <item>
-      <title>drama</title>
-      <link>https://runkelcorey.github.io/tags/drama/</link>
-      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/tags/drama/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>just released</title>
       <link>https://runkelcorey.github.io/tags/just-released/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://runkelcorey.github.io/tags/just-released/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>movie review</title>
-      <link>https://runkelcorey.github.io/tags/movie-review/</link>
-      <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/tags/movie-review/</guid>
       <description></description>
     </item>
     
