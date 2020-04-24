@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>political economy | Corey Runkel</title>
+    <link>https://runkelcorey.github.io/categories/political-economy/</link>
+      <atom:link href="https://runkelcorey.github.io/categories/political-economy/index.xml" rel="self" type="application/rss+xml" />
+    <description>political economy</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2020</copyright><lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://runkelcorey.github.io/img/icon-192.png</url>
+      <title>political economy</title>
+      <link>https://runkelcorey.github.io/categories/political-economy/</link>
+    </image>
+    
+    <item>
+      <title>Political Impacts of Residential Mortgages in Crisis</title>
+      <link>https://runkelcorey.github.io/publication/thesis/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/publication/thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

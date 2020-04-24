@@ -3,26 +3,91 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://runkelcorey.github.io/publication_types/7/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://runkelcorey.github.io/categories/</loc>
-    <lastmod>2020-02-15T11:08:41-05:00</lastmod>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://runkelcorey.github.io/</loc>
-    <lastmod>2020-02-15T11:08:41-05:00</lastmod>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/publication/thesis/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/publication_types/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/categories/r/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/tags/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/tags/foreclosures/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/tags/housing/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/categories/open-data/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/categories/political-economy/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/tags/political-economy/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/categories/spatial-analysis/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/tags/subprime-mortgage-crisis/</loc>
+    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://runkelcorey.github.io/2020/02/15/david-lynch-is-toying-with-us/</loc>
     <lastmod>2020-02-15T11:08:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://runkelcorey.github.io/tags/</loc>
-    <lastmod>2020-02-15T11:08:41-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -278,19 +343,7 @@
   </url>
   
   <url>
-    <loc>https://runkelcorey.github.io/categories/r/</loc>
-    <lastmod>2019-08-07T19:16:31-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://runkelcorey.github.io/tags/government-data/</loc>
-    <lastmod>2019-08-07T19:16:31-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://runkelcorey.github.io/categories/open-data/</loc>
     <lastmod>2019-08-07T19:16:31-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -309,11 +362,6 @@
   <url>
     <loc>https://runkelcorey.github.io/post/</loc>
     <lastmod>2019-08-07T19:16:31-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://runkelcorey.github.io/publication_types/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

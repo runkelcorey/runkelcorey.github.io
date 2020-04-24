@@ -5,12 +5,44 @@
     <link>https://runkelcorey.github.io/categories/</link>
       <atom:link href="https://runkelcorey.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2020</copyright><lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Corey N. Runkel 2020</copyright><lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Categories</title>
       <link>https://runkelcorey.github.io/categories/</link>
     </image>
+    
+    <item>
+      <title>R</title>
+      <link>https://runkelcorey.github.io/categories/r/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open data</title>
+      <link>https://runkelcorey.github.io/categories/open-data/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/categories/open-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>political economy</title>
+      <link>https://runkelcorey.github.io/categories/political-economy/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/categories/political-economy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spatial analysis</title>
+      <link>https://runkelcorey.github.io/categories/spatial-analysis/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/categories/spatial-analysis/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>analysis</title>
@@ -57,22 +89,6 @@
       <link>https://runkelcorey.github.io/categories/meta/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://runkelcorey.github.io/categories/meta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://runkelcorey.github.io/categories/r/</link>
-      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>open data</title>
-      <link>https://runkelcorey.github.io/categories/open-data/</link>
-      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/categories/open-data/</guid>
       <description></description>
     </item>
     
