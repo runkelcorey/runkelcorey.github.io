@@ -5,12 +5,44 @@
     <link>https://runkelcorey.github.io/tags/</link>
       <atom:link href="https://runkelcorey.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright><lastBuildDate>Thu, 30 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://runkelcorey.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>america</title>
+      <link>https://runkelcorey.github.io/tags/america/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/tags/america/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hitchcock</title>
+      <link>https://runkelcorey.github.io/tags/hitchcock/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/tags/hitchcock/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theory</title>
+      <link>https://runkelcorey.github.io/tags/theory/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/tags/theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vertigo</title>
+      <link>https://runkelcorey.github.io/tags/vertigo/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/tags/vertigo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>political economy</title>
@@ -45,14 +77,6 @@
     </item>
     
     <item>
-      <title>america</title>
-      <link>https://runkelcorey.github.io/tags/america/</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/tags/america/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>david lynch</title>
       <link>https://runkelcorey.github.io/tags/david-lynch/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
@@ -65,14 +89,6 @@
       <link>https://runkelcorey.github.io/tags/cooking/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://runkelcorey.github.io/tags/cooking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>theory</title>
-      <link>https://runkelcorey.github.io/tags/theory/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/tags/theory/</guid>
       <description></description>
     </item>
     
@@ -189,26 +205,10 @@
     </item>
     
     <item>
-      <title>hitchcock</title>
-      <link>https://runkelcorey.github.io/tags/hitchcock/</link>
-      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/tags/hitchcock/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>space</title>
       <link>https://runkelcorey.github.io/tags/space/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://runkelcorey.github.io/tags/space/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>vertigo</title>
-      <link>https://runkelcorey.github.io/tags/vertigo/</link>
-      <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/tags/vertigo/</guid>
       <description></description>
     </item>
     
