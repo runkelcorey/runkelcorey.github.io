@@ -5,7 +5,7 @@
     <link>https://runkelcorey.github.io/</link>
       <atom:link href="https://runkelcorey.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Corey Runkel</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright><lastBuildDate>Thu, 30 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright><lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Corey Runkel</title>
@@ -13,133 +13,90 @@
     </image>
     
     <item>
-      <title>In Vertigo (1958), an Uncertain History</title>
-      <link>https://runkelcorey.github.io/2020/07/30/in-vertigo-an-uncertain-history/</link>
-      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/2020/07/30/in-vertigo-an-uncertain-history/</guid>
-      <description>
+      <title>Small economies face big mobile payments</title>
+      <link>https://runkelcorey.github.io/2020/11/13/small-economies-face-big-mobile-payments/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/2020/11/13/small-economies-face-big-mobile-payments/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Bloomberg Businessweek&lt;/em&gt; &lt;a href=&#34;https://www.bloomberg.com/news/features/2020-11-11/zelle-has-turned-dollar-starved-venezuela-into-a-cashless-test-lab&#34; target=&#34;_blank&#34;&gt;published&lt;/a&gt; an article this week on the rise of mobile payments provider Zelle in Venezuela, where inflation has pushed the price of a &lt;a href=&#34;https://www.bloomberg.com/features/2016-venezuela-cafe-con-leche-index/&#34; target=&#34;_blank&#34;&gt;café con leche&lt;/a&gt; to 890,000 bolivars.
+Zelle, a money transfer service owned by large US banks, is at first glance an unlikely actor in this story.
+Why would Venezuelans embrace a proxy of American financial power?
+The article argues that Zelle&amp;rsquo;s dollars offer hygienic access to a stable currency.
+Before covid, the Caracas-based consultancy Ecoanalítica &lt;a href=&#34;https://www.wsj.com/articles/venezuela-in-historic-shift-moves-to-scale-back-fuel-subsidy-11590961477&#34; target=&#34;_blank&#34;&gt;estimated&lt;/a&gt; that only 15% of citizens have stable access to dollars.
+Zelle simply sends dollars around US banks, circumventing the need for physical currency in a dollar-strapped, pandemic-addled country.&lt;/p&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;&lt;a href=&#34;http://www.historyguide.org/europe/valery.html&#34; target=&#34;_blank&#34;&gt;We see now that the abyss of history is deep enough to hold us all.&lt;/a&gt;&amp;ldquo;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;But, as people use a currency less, its legitimacy drops: those who accept bolivars for dollars demand higher and higher rates in return; Zelle (and other mobile payments providers with access to dollars) facilitate dollar spot trading for the masses.
+Venezuelans are effectively hastening the bolivar&amp;rsquo;s demise.
+Now, it is important to keep in mind that consumer transactions rarely add up to much when compared to large-value settlements by banks and governments, but the effect is there.
+&lt;em&gt;Bloomberg&lt;/em&gt; reported that some XX% of Venezuelans maintain a foreign bank account, and a straw poll of Caracas retailers indicates that YY% accept Zelle.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Vertigo&lt;/em&gt; places a thoroughly modern Scottie Ferguson&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Jimmy-Stewart&#34;&gt;&lt;a href=&#34;#fn:Jimmy-Stewart&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; within a thoroughly modern San Francisco.
-It then watches as he slips from his mental moorings into a twisted version of himself.
-His cycle of psychological terror constitutes a violent &lt;em&gt;displacement&lt;/em&gt;, and it re-opens two key questions of belonging: of Scottie to San Francisco; and of San Francisco to Scottie.
-I will examine only the former today; the latter I leave for later.&lt;/p&gt;
+&lt;p&gt;Mobile payment providers have democratized and sped monetary policy in Venezuela.
+One would expect Nicolas Maduro, Venezuela&amp;rsquo;s anti-American president, to curse as the national currency slips away in favor of the dollar.
+However, Maduro welcomed this development.
+&amp;gt;“I don’t see it as a bad thing … this process that they call ‘dollarization,’” he said during a November 2019 TV broadcast, adding, “thank God it exists!”&lt;/p&gt;
 
-&lt;p&gt;My argument runs like this:
-&lt;em&gt;Vertigo&lt;/em&gt;&amp;rsquo;s early scenes depict a San Francisco that is tailored to mobile white men like Scottie.
-For his part, Scottie enforced the modern status quo as a San Francisco cop, until his partner died trying to save Scottie from falling during a rooftop chase.
-With the danger supposedly over, he finds himself navigating a comfortable and controlled city, with sights/sites located just off the highway&amp;mdash;Fort XX, the Muir Woods, and the Mission San Juan Bautista.&lt;/p&gt;
+&lt;p&gt;We have here the rare phenomenon that a government accepts the instability of its currency without providing its own alternative.
+Transactions bewteen Venezuelan governments and officials still legally proceed in bolivars&amp;mdash;Trump administration sanctions have US accounts connected to thousands of officials&amp;mdash;but an estimated 60% of transactions in the country use greenbacks now.
+This modifies the vision of monetary regulation articulated by Karl Polanyi in &lt;em&gt;The Great Transformation&lt;/em&gt;.
+Polanyi saw the welfare state, land reform, and the fiats that valued currencies as scenes in the second act of a great &amp;lsquo;double movement&amp;rsquo;.&lt;/p&gt;
 
-&lt;p&gt;But these parks did not just happen.
-Public works efforts had to make the sites palettable to professionals and tourists.
-These efforts had to isolate the visual cues of danger from any actual, Wild West&amp;ndash;type danger.
-Rather than places to be reckoned with, these are sights to be gawked at.
-In the first formulation, the site&amp;mdash;with all its natural and political forces&amp;mdash;participates with those who visit it; in the second, only the visitor is active, while the sight is frozen in space.&lt;/p&gt;
+&lt;p&gt;In general, a double movement is the powerful destabilization of area thought to be fixed, followed by the frenzied creation of a mechanism to regulate that space.
+Specifically, destabilizations in land, labor, and money wrought by the rise of the market economy in Second Industrial Revolution&amp;ndash;era Britain attracted Polanyi.
+&lt;em&gt;The Great Transformation&lt;/em&gt; made important contributions to anthropology&amp;mdash;detailing how the market economy produced a mental shift not unlike Weber&amp;rsquo;s process of rationalization&amp;mdash;but let&amp;rsquo;s stay fixed to his account of the birth of monetary regulation.
+Essentially, classic liberals agreed into existence the intellectual atmosphere necessary for economic liberalization:
+&amp;gt;What made economic liberalism an irresistible force was this congruence of opinion between diametrically opposed outlooks; for what the ultrareformer Bentham and the ultratraditionalist Burke equally approved of automatically took on the character of self-evidence.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Political-Econom&#34;&gt;&lt;a href=&#34;#fn:Political-Econom&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Vertigo&lt;/em&gt; exposes how thin this veneer of safety is.
-Between Madeleine&amp;rsquo;s actions and Scottie&amp;rsquo;s vertigo, the film reintroduces the distinct possibilities of danger to these places.
-In doing so, it unsettles the stable relationship between Scottie the subject and San Francisco the object.&lt;/p&gt;
+&lt;p&gt;Yet, to create a truly laissez-faire system is to create &amp;lsquo;fictitious commodities&amp;rsquo;, to subject things which cannot fluctuate like commodities to the same market discipline.
+The chaos of the Second Industrial Revolution ensued, pulling people into the conditions Engels described in Manchester, scuffing up the land with mining tracts, and eroding people&amp;rsquo;s sense of stability by inflation and deflation.
+After all the careful treatises, pamphlets, and speeches, people did not want to deal with the self-adjusting market.
+Where &amp;ldquo;Laissez-faire was planned, planning was not.&amp;rdquo;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:The-Birth-of-the&#34;&gt;&lt;a href=&#34;#fn:The-Birth-of-the&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;I contend that a stable subject-object relationship is necessary to Scottie&amp;rsquo;s sense of place; as evidence, I look to his meeting with Gavin Elster.
-#Elster meeting exposes Scottie&amp;rsquo;s desires
-##Scottie kind of had this with the police force, but he has been neutered and immobilized (the placement)
-##Also exposes what SF lacks
-#He likes going to these &amp;ldquo;old places&amp;rdquo; b/c he feels powerful and free there, his very life in defiance of the tall trees, colonial forces, and rough seas
-##these parks serve as reminders of the passage of time, but they are as much participants in it
-##so, unbeknownst to Scottie, the parks lost their oldness. Therefore, the power he feels is invalid
-#Madeleine exposes real danger
-##This unsettles the relationship, because he now feels the danger
-##this change makes it such that he can confuse now with the past
-##this flattening of history disorients scottie&lt;/p&gt;
+&lt;p&gt;His account lands most viscerally when he discusses the welfare policies made for people, but it extends to money as well:
+&amp;gt;central banking and the management of the monetary system were needed to keep manufactures and other productive enterprises safe from the harm involved in the commodity fiction as applied to money. Paradoxically enough, not human beings and natural resources only but also the organization of capitalistic production itself had to be sheltered from the devastating effects of a self-regulating market.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Man-Nature-and-P&#34;&gt;&lt;a href=&#34;#fn:Man-Nature-and-P&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;
+To reduce it a great deal, businesses like stability, but a market-oriented approach to money actually involves a great deal of instability once foreign exchange is added to the equation.
+In the Second Industrial Revolution, the source of instability, the commodity that was so fictional, was the gold standard.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:To-illustrate-it&#34;&gt;&lt;a href=&#34;#fn:To-illustrate-it&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;
+Some economic historians point to the gold standard&amp;rsquo;s breakdown, and then to economies&amp;rsquo; subsequent deflations and tightenings of credit as the trigger of the Great Depression.
+Polanyi did too, and the connection with the greatest modern economic catastrophe served his purposes in &lt;em&gt;The Great Transformation&lt;/em&gt;.
+As a result of the Depression, nations adopted &amp;lsquo;token currency&amp;rsquo;, which today we still have.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;Up to this point, Polanyi&amp;rsquo;s relatively ancient history could also describe Venezuela&amp;rsquo;s relatively recent.
+In brief, a commodity-backed money (in this case, oil) wreaks terrible damage on ~business~ and the populace by its wild gyrations.
+In this case, the terror is inflation instead of deflation, but damage is still inflicted&amp;mdash;who the ~winners~ and ~losers~ are is reversed, if for only a short while.
+But Maduro&amp;rsquo;s approval of the dollarization distinguishes now from then.
+Polanyi writes of a resurgent nationalism that takes a country&amp;rsquo;s currency as its emblem:
+&amp;gt;the new nationalism was the corollary of the new internationalism. [&amp;hellip;]  The national token currency was the certain safeguard of this relative security since it allowed the central bank to act as a buffer between the internal and the external economy.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Market-and-Produ&#34;&gt;&lt;a href=&#34;#fn:Market-and-Produ&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;This is a private reading of &lt;em&gt;Vertigo&lt;/em&gt;.
-To&lt;/p&gt;
+&lt;p&gt;In contrast, Maduro relinquishes nationalism for the external economy.
+Is this internationalism? American hegemony? It depends if you look at the dollar simply as the reserve currency of the world, or tack on its role in US global power, tending toward hegemony.
+Regardless of the particular label, Maduro&amp;rsquo;s declaration was incongruous with his nationalism in other spheres of policy.
+I would interpret this to agree with &lt;em&gt;Bloomberg&lt;/em&gt;&amp;rsquo;s take that &amp;ldquo;Venezuelans’ embrace of digital money is less a matter of choice than of necessity&amp;rdquo;, but that would seem to argue that Venezuela&amp;rsquo;s troubles tended inevitably to acquiescence to the dollar.
+Instead, I want to emphasize that different governments react in different ways depending on their priority.
+Despite Maduro&amp;rsquo;s dictatorial tendencies (and they can&amp;rsquo;t be ironed over), I think his admission grasps the reality of Venezuela&amp;rsquo;s situation and a possible &amp;ldquo;escape valve&amp;rdquo; (his words) for the country.&lt;/p&gt;
 
-&lt;p&gt;By disrupting the normal order of things, &lt;em&gt;Vertigo&lt;/em&gt; thus undermines our () grip of America over San Francisco, and, in doing so, its narrative of progress.
-This disruption contributes to a &amp;ldquo;weakening of historicity, both in our relationship to public History and in the new forms of our private temporality&amp;rdquo;.^[Frederic Jameson, &lt;a href=&#34;https://web.archive.org/web/20110806060217/http://homepage.newschool.edu/~quigleyt/vcs/jameson/jameson.html&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;The Cultural Logic of Late Capitalism&lt;/em&gt;&lt;/a&gt;
-Here &amp;lsquo;historcity&amp;rsquo; is that sense that things have changed somehow in our social relations.
-By exposing progress as a veneer, Hitchock traps us in a spiral that mirrors Scottie Ferguson&amp;rsquo;s own difficulty escaping his traumatic past.&lt;/p&gt;
+&lt;p&gt;I ascribe agency, and&amp;mdash;therefore&amp;mdash;intent to Maduro&amp;rsquo;s admission because another country facesa very similar situtation, but has dealt with it much differently.
+For me the demonstration of two different approaches to the same problem is enough to poke holes in any account of the situation that claims inevitability.
+However, this line of reasoning must be weighed against the fact that inflation is not (currently) as bad in this country.
+Zimbabwe has played host to the world&amp;rsquo;s worst inflation for most of the new millennium, but the recent figures total in the hundreds of percent, not tens of thousands.
+In July, the president accused the CEO of Econet, Zimbabwe&amp;rsquo;s largest mobile payments operator, with conspiring to undermine the country&amp;rsquo;s dollar peg.
+This accusation is made all the more serious with the fact that about 90% of transactions take place through Econet.
+It looks as though the process differs slightly from that in Venezuela&amp;mdash;instead of sending dollars through US bank accounts, Zimbabweans have physical dollars (or assets denominated in dollars) and trade Zollars&amp;mdash;but the idea is the same.&lt;/p&gt;
 
-&lt;h2 id=&#34;establishing-a-modern-city-via-the-american-sublime&#34;&gt;Establishing a modern city via the American sublime&lt;/h2&gt;
-
-&lt;p&gt;(the flâneur, Gavin Elster)? american tech sublime and the double action&lt;/p&gt;
-
-&lt;h2 id=&#34;disrupting-the-illusion-of-safety&#34;&gt;Disrupting the illusion of safety&lt;/h2&gt;
-
-&lt;p&gt;Definitely something here about the fragility of the sublime
-Madeleine puncturing the visual membrane of the sublime&lt;/p&gt;
-
-&lt;p&gt;The sublime, rather than an instrument which rattles people from their parochial understandings of history to glean a new future, turns them toward a never-ending past.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Vertigo&lt;/em&gt; is often viewed as the modernist movie. Here instead it is an early example of postmodernism.&lt;/p&gt;
-
-&lt;p&gt;Many of &lt;em&gt;Vertigo&lt;/em&gt;&amp;rsquo;s lasting images star San Francisco as much as they do Jimmy Stewart or Kim Novak.
-Consider for example the massive pylons supporting the Golden Gate Bridge, the looming trunks of Muir Woods, or the towering figure cut by the Mission San Juan Bautista.
-These are objects so huge that Hitchcock&amp;rsquo;s camera cannot swallow them entirely, their vastness bleeding over the frame&amp;rsquo;s edges.
-And each of them repeat vertical features&amp;mdash;the &lt;a href=&#34;https://en.wikipedia.org/wiki/International_orange#Golden_Gate_Bridge&#34; target=&#34;_blank&#34;&gt;International Orange&lt;/a&gt; suspension cables, endless &lt;em&gt;Sequoia sempervirens&lt;/em&gt;, late-afternoon shadows cast by pale white arches&amp;mdash;that recede into the distance.&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;Succession and uniformity of parts are what constitute the artificial infinite&amp;rdquo; wrote Edmund Burke in &lt;em&gt;A Philosophical Enquiry Into the Origin of Our Ideas of the Sublime and Beautiful&lt;/em&gt;, one of the first modern explorations of the sublime.
-He described the sublime as a state when &amp;ldquo;the mind is so entirely filled with its object, that it cannot entertain any other,&amp;rdquo; inciting terror and astonishment at its heights, while &amp;ldquo;the inferior effects are admiration, reverence and respect.&amp;rdquo;
-The treatment Hitchcock gives to San Francisco&amp;rsquo;s iconic sights meets Burke&amp;rsquo;s standard.
-But what purpose does this treatment serve? How does the voyeurism of Hitchcock&amp;rsquo;s camera change the meaning of these vistas? &amp;lt;&amp;mdash;is this a question for the other post&lt;/p&gt;
-
-&lt;p&gt;These images represent a particular kind of sublime associated with a particular kind of political project.
-While great magnitude and manifold features are part of Burke&amp;rsquo;s sublime, he later disavows &amp;ldquo;colonnades and avenues of trees [&amp;hellip;] suffered to run to immense distances&amp;rdquo; as urbane.
-However, the ultimate height of construction (and of trees) was not foreseen by Burke in 1757: the technical and natural discoveries in nineteenth-century and early-twentieth-century America would dwarf those of eighteenth-century Europe.
-Moreover, metropolitans worldwide realized the need to incorporate great sights into their cityscapes.
-Historian David Nye writes of an American technological sublime, a fusion of American technical mastery and pre-American resources.&lt;/p&gt;
-
-&lt;p&gt;I argue that this modification of Burke&amp;rsquo;s typology (which had separated the sublime into natural and architectural modes) can be used to better understand how the expansive imagery in &lt;em&gt;Vertigo&lt;/em&gt; contributes to a &amp;ldquo;weakening of historicity, both in our relationship to public History and in the new forms of our private temporality&amp;rdquo;.^[Frederic Jameson, &lt;a href=&#34;https://web.archive.org/web/20110806060217/http://homepage.newschool.edu/~quigleyt/vcs/jameson/jameson.html&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;The Cultural Logic of Late Capitalism&lt;/em&gt;&lt;/a&gt;
-Keeping with &lt;a href=&#34;https://popculturebento.com/the-all-american-gaze-distorted-perspective-in-alfred-hitchcocks-vertigo/&#34; target=&#34;_blank&#34;&gt;my earlier analysis of the film&lt;/a&gt;, I maintain that &lt;em&gt;Vertigo&lt;/em&gt; presents both a private message concerning Scottie Ferguson&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Portrayed-by-Jim&#34;&gt;&lt;a href=&#34;#fn:Portrayed-by-Jim&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; and a public message about the social geography of 1950&amp;rsquo;s America.
-In the interest of clarity, I focus today only on the public message, detailing how the American sublime clashes pre-modernity with modernity, disorienting Scottie&amp;rsquo;s experience of history.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-drives-scottie&#34;&gt;What drives Scottie?&lt;/h2&gt;
-
-&lt;p&gt;Understanding the sublime images in &lt;em&gt;Vertigo&lt;/em&gt; begins with understanding how Scottie encounters such pictures.
-Since the film is shot (mostly) from his perspective, Hitchcock&amp;rsquo;s treatment of the Golden Gate, the Muir Woods, and the Mission all derive from Scottie.
-While his desires have been the subject of several careers in film studies, it will help to simplify by looking at the film itself for direction.
-Stewart&amp;rsquo;s body language clues us in to the gravity of his encounter with Gavin Elster, Madeleine&amp;rsquo;s husband.
-As Nerdwriter &lt;a href=&#34;https://www.youtube.com/watch?v=UgnNakO6JZw&#34; target=&#34;_blank&#34;&gt;demonstrates&lt;/a&gt;, this meeting has so much to do with each man&amp;rsquo;s power.
-This short exchange seems to encapsulate much of the two men&amp;rsquo;s urges:
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/udMms5FKyok?t=47&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-And in the script:
-&amp;gt;ELSTER: San Francisco&amp;rsquo;s changed. The things that spell San Francisco to me are disappearing fast.
-SCOTTIE: (Scottie smiles at the old prints [of a small, façaded San Francisco surrounded by dangerous and rocky terrain] on the wall.) Like all this.
-ELSTER: (Nodding) I&amp;rsquo;d like to have lived here then. The color and excitement&amp;hellip; the power&amp;hellip;  the freedom.
-(Though he does not stress the word, the way he lingers softly on the word &amp;ldquo;Freedom&amp;rdquo; makes Scottie look over at him again. Elster looks up and smiles companionably.)&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Alec-Coppel-Samu&#34;&gt;&lt;a href=&#34;#fn:Alec-Coppel-Samu&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;p&gt;All the mechanisms by which 1950s San Francisco distances itself from its Wild West past&amp;mdash;the long sequences in sleek automobiles, the infrequent references to psychiatry, a brassiere operating by &amp;ldquo;the principle of the cantilever bridge&amp;rdquo;&amp;mdash;are here disavowed in favor of a dangerous and unfamiliar past.
-That bra symbolizes surprisingly much of the city&amp;rsquo;s changes.
-Its &amp;ldquo;revolutionary uplift&amp;rdquo;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Vertigo-script-P&#34;&gt;&lt;a href=&#34;#fn:Vertigo-script-P&#34;&gt;4&lt;/a&gt;&lt;/sup&gt; are designed for the pleasure of men, as much of city&amp;rsquo;s attractions were.
-Meanwhile, the comfort provided by the innovative architecture undoubtedly improved women&amp;rsquo;s lives, albeit in small ways.&lt;/p&gt;
-
-&lt;p&gt;By including men and women, the bra is thus a factor of the democratic virtues of the American technological sublime outlined by David Nye.
-But it is also a product of that historical concept, designed by an engineer in his spare time, a &amp;ldquo;kind of do-it-yourself thing,&amp;rdquo; as Scottie notes.
-This spirit of tinkering that came from outside the state apparatus and wealthy class is the reason why &amp;ldquo;Engineers, builders, and inventors began to occupy [&amp;hellip;] the pantheon of republicanism.&amp;ldquo;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:David-Nye-The-Am&#34;&gt;&lt;a href=&#34;#fn:David-Nye-The-Am&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;
-The bra (by its inventor, its target audience, its cantilever design) symbolizes how invention, innovation, and ambitious construction catered to America&amp;rsquo;s middle class.
-These criteria of the American sublime would have been alien to a pre-modern San Francisco.&lt;/p&gt;
-
-&lt;p&gt;However, the above is but the first move in Nye&amp;rsquo;s distinctive double action of the American sublime.
-Where that first move &amp;ldquo;usurped the place of natural things with man-made objects” conceived as &amp;ldquo;internal improvements”, the second move covered the tracks of the first, assimilating the object of improvement as once again natural.&lt;/p&gt;
+&lt;p&gt;That this is Zimbabwe&amp;rsquo;s second attempt to ditch the (US) dollar in spite of national disfavour shows the national mindset at work here.
+These two cases remind us how attractive a national currency can be, but also how tragically impractical.
+Mobile payment providers facilitate and hasten old instabilities, leaving little room for fixed-rate currencies to thrive.
+It&amp;rsquo;s unclear whether Polanyi&amp;rsquo;s conception of states strong enough to rein in their markets applied when he wrote &lt;em&gt;The Great Transformation&lt;/em&gt;, but it certainly does not now.
+And you can bet that central banks are looking to Zimbabwe and Venezuela with anxiety, even though this scale of collapse requires more than just disruptive mobile payments.
+I believe this fear is why regulators have thrown bureaucratic wrenches into the last-minute developments of promising startups and &lt;a href=&#34;https://www.bloomberg.com/opinion/articles/2020-06-06/facebook-s-whatsapp-suffers-from-stigma-in-india-digital-payments?sref=Fne8FErw&#34; target=&#34;_blank&#34;&gt;Facebook/WhatsApp&amp;rsquo;s&lt;/a&gt; &lt;a href=&#34;https://www.bloomberg.com/news/articles/2020-06-23/brazil-s-central-bank-suspends-whatsapp-payments?sref=Fne8FErw&#34; target=&#34;_blank&#34;&gt;Libra&lt;/a&gt;.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:As-a-side-note-I&#34;&gt;&lt;a href=&#34;#fn:As-a-side-note-I&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 
 &lt;hr /&gt;
 
 &lt;ol&gt;
-&lt;li id=&#34;fn:Jimmy-Stewart&#34;&gt;Jimmy Stewart &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Jimmy-Stewart&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:Portrayed-by-Jim&#34;&gt;Portrayed by Jimmy Stewart. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Portrayed-by-Jim&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:Alec-Coppel-Samu&#34;&gt;Alec Coppel &amp;amp; Samuel Taylor, &lt;em&gt;Vertigo&lt;/em&gt; [script](&lt;a href=&#34;https://the.hitchcock.zone/wiki/Scripts:_Vertigo_(12/Sep/1957&#34; target=&#34;_blank&#34;&gt;https://the.hitchcock.zone/wiki/Scripts:_Vertigo_(12/Sep/1957&lt;/a&gt;) Part 2, dated 12 September 1957. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Alec-Coppel-Samu&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:Vertigo-script-P&#34;&gt;&lt;em&gt;Vertigo&lt;/em&gt; script, Part 1. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Vertigo-script-P&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li id=&#34;fn:David-Nye-The-Am&#34;&gt;David Nye, &amp;ldquo;The American Sublime&amp;rdquo; in &lt;em&gt;American Technological Sublime&lt;/em&gt;. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:David-Nye-The-Am&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:Political-Econom&#34;&gt;&amp;ldquo;Political Economy and the Discovery of Society&amp;rdquo;. All chapters from &lt;em&gt;The&lt;/em&gt; still-copyrighted &lt;em&gt;Great Transformation&lt;/em&gt;. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Political-Econom&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:The-Birth-of-the&#34;&gt;&amp;ldquo;The Birth of the Liberal Creed&amp;rdquo; &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:The-Birth-of-the&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:Man-Nature-and-P&#34;&gt;&amp;ldquo;Man, Nature, and Productive Organization&amp;rdquo; &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Man-Nature-and-P&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:To-illustrate-it&#34;&gt;To illustrate its fictitiousness, I&amp;rsquo;ll add a fact I read in some children&amp;rsquo;s encyclopedia many years ago: all the gold in the world would only build the first 55 feet or so of the Washington Monument, and no mother lodes have been found since then. It is a remarkably rare material, and one subject now to such investment. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:To-illustrate-it&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:Market-and-Produ&#34;&gt;&amp;ldquo;Market and Productive Organization&amp;rdquo; &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Market-and-Produ&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:As-a-side-note-I&#34;&gt;As a side note, I think Ant Group&amp;rsquo;s halted IPO is a very different beast than the India and Brazil injunctions against Libra. China is under no threat from Ant or any of its businesses, for that matter. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:As-a-side-note-I&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
