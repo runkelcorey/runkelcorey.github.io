@@ -5,7 +5,7 @@
     <link>https://runkelcorey.github.io/categories/</link>
       <atom:link href="https://runkelcorey.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright><lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Categories</title>
@@ -13,18 +13,42 @@
     </image>
     
     <item>
-      <title>analysis</title>
-      <link>https://runkelcorey.github.io/categories/analysis/</link>
-      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/categories/analysis/</guid>
+      <title>culture</title>
+      <link>https://runkelcorey.github.io/categories/culture/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/categories/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>film</title>
+      <link>https://runkelcorey.github.io/categories/film/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/categories/film/</guid>
       <description></description>
     </item>
     
     <item>
       <title>political economy</title>
       <link>https://runkelcorey.github.io/categories/political-economy/</link>
-      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://runkelcorey.github.io/categories/political-economy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>predictions</title>
+      <link>https://runkelcorey.github.io/categories/predictions/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/categories/predictions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analysis</title>
+      <link>https://runkelcorey.github.io/categories/analysis/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/categories/analysis/</guid>
       <description></description>
     </item>
     
@@ -57,22 +81,6 @@
       <link>https://runkelcorey.github.io/categories/spatial-analysis/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://runkelcorey.github.io/categories/spatial-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>film</title>
-      <link>https://runkelcorey.github.io/categories/film/</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/categories/film/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>culture</title>
-      <link>https://runkelcorey.github.io/categories/culture/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/categories/culture/</guid>
       <description></description>
     </item>
     
