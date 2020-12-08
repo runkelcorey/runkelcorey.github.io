@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>culture | Corey Runkel</title>
-    <link>https://runkelcorey.github.io/tags/culture/</link>
-      <atom:link href="https://runkelcorey.github.io/tags/culture/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/culture/</link>
+      <atom:link href="/tags/culture/index.xml" rel="self" type="application/rss+xml" />
     <description>culture</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright><lastBuildDate>Thu, 21 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://runkelcorey.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>culture</title>
-      <link>https://runkelcorey.github.io/tags/culture/</link>
+      <link>/tags/culture/</link>
     </image>
     
     <item>
       <title>American Heartbreak</title>
-      <link>https://runkelcorey.github.io/2019/11/21/american-heartbreak/</link>
+      <link>/2019/11/21/american-heartbreak/</link>
       <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/2019/11/21/american-heartbreak/</guid>
+      <guid>/2019/11/21/american-heartbreak/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;I am the American heartbreak–&lt;/p&gt;
 
@@ -44,9 +44,9 @@
     
     <item>
       <title>Aspirational Efficiency</title>
-      <link>https://runkelcorey.github.io/2019/11/07/aspirational-efficiency/</link>
+      <link>/2019/11/07/aspirational-efficiency/</link>
       <pubDate>Thu, 07 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/2019/11/07/aspirational-efficiency/</guid>
+      <guid>/2019/11/07/aspirational-efficiency/</guid>
       <description>&lt;p&gt;The easiest way to derail any work that I am doing is by linking to an article ranking and comparing things that will help me live a better life. That article might rank the 10 best productivity apps, it may uncover new services which partition and categorize every second of my day, or&amp;mdash;as it did yesterday&amp;mdash;it could offer me a phone that can satisfy my needs immediately, stripping my day of wasted time. The only certainty is that I, in my manifold time management skills, will click on that link.&lt;/p&gt;
 
 &lt;p&gt;I thought this was a phenomenon entirely local to myself until I saw this &lt;a href=&#34;https://aeon.co/essays/how-did-being-happy-become-a-matter-of-relentless-competitive-work&#34; target=&#34;_blank&#34;&gt;article&lt;/a&gt; from Aeon, noting that life management has become a juggernaut in consumer retail, with &amp;ldquo;self-care and anti-stress products now rounding out the bestseller list on Amazon&amp;rdquo;. We&amp;rsquo;ve reined in other animals, organizations of people, and our bodies by calibrating each measurable parameter, so why not do the same for our minds? Unfortunately, we don&amp;rsquo;t seem quite as pliant as the optimization equations imply.&lt;/p&gt;

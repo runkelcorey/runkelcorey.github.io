@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>subprime mortgage crisis | Corey Runkel</title>
-    <link>https://runkelcorey.github.io/tags/subprime-mortgage-crisis/</link>
-      <atom:link href="https://runkelcorey.github.io/tags/subprime-mortgage-crisis/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/subprime-mortgage-crisis/</link>
+      <atom:link href="/tags/subprime-mortgage-crisis/index.xml" rel="self" type="application/rss+xml" />
     <description>subprime mortgage crisis</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright><lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://runkelcorey.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>subprime mortgage crisis</title>
-      <link>https://runkelcorey.github.io/tags/subprime-mortgage-crisis/</link>
+      <link>/tags/subprime-mortgage-crisis/</link>
     </image>
     
     <item>
       <title>Political Impacts of Residential Mortgages in Crisis</title>
-      <link>https://runkelcorey.github.io/publication/thesis/</link>
+      <link>/publication/thesis/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/publication/thesis/</guid>
+      <guid>/publication/thesis/</guid>
       <description></description>
     </item>
     

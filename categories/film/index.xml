@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>film | Corey Runkel</title>
-    <link>https://runkelcorey.github.io/categories/film/</link>
-      <atom:link href="https://runkelcorey.github.io/categories/film/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/film/</link>
+      <atom:link href="/categories/film/index.xml" rel="self" type="application/rss+xml" />
     <description>film</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://runkelcorey.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>film</title>
-      <link>https://runkelcorey.github.io/categories/film/</link>
+      <link>/categories/film/</link>
     </image>
     
     <item>
       <title>How long do actors have left?</title>
-      <link>https://runkelcorey.github.io/2020/12/07/how-long-do-actors-have-left/</link>
+      <link>/2020/12/07/how-long-do-actors-have-left/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/2020/12/07/how-long-do-actors-have-left/</guid>
+      <guid>/2020/12/07/how-long-do-actors-have-left/</guid>
       <description>
 
 &lt;p&gt;My friend Avital wrote a great essay last year about an Instagram influencer.
@@ -62,10 +62,13 @@ The studios will also be able to co-opt new politics quickly, to commodify the m
 &lt;p&gt;Of course human actors won&amp;rsquo;t be able to coexist.
 Taking Baudrillard seriously, we should expect the current desire for authenticity to wear off at some point as viewers accept and expect computers to do the talking as they do the exploding now.
 One upshot is that the incredibly beautiful star may fade (though its place will be taken by even less credible pixels) and famous human talent, to the extent it still resides in one person, will be a rangy voice or&amp;mdash;if motion capture remains viable against pure illustration&amp;mdash;an emotive face.
-Even though it is not linear, specialization happens whenever new technologies are adopted:
-1. the introduction of cinema made obsolete the need for thousands of local theater actors who could deliver lines
-2. when sound was added, actors again had to deliver lines, but only once
-3. the decline of the musical has meant that the best actors need never dance; and [ultra-]HD &lt;a href=&#34;https://www.today.com/popculture/hd-unforgiving-actors-makeup-artists-wbna24581670&#34; target=&#34;_blank&#34;&gt;emphasized&lt;/a&gt; skin quality [and makeup departments].&lt;/p&gt;
+Even though it is not linear, specialization happens whenever new technologies are adopted:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;the introduction of cinema made obsolete the need for thousands of local theater actors who could deliver lines&lt;/li&gt;
+&lt;li&gt;when sound was added, actors again had to deliver lines, but only once&lt;/li&gt;
+&lt;li&gt;the decline of the musical has meant that the best actors need never dance; and [ultra-]HD &lt;a href=&#34;https://www.today.com/popculture/hd-unforgiving-actors-makeup-artists-wbna24581670&#34; target=&#34;_blank&#34;&gt;emphasized&lt;/a&gt; skin quality [and makeup departments].&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;It might take a while, but Hollywood will look even more like Broadway in its reduced size and lower pay as improved CGI routinizes talent.
 Studios will be the big winners here.
@@ -89,9 +92,9 @@ As more and more media companies jump into VR and Oculus gains traction, there&a
     
     <item>
       <title>David Lynch is Toying With Us</title>
-      <link>https://runkelcorey.github.io/2020/02/15/david-lynch-is-toying-with-us/</link>
+      <link>/2020/02/15/david-lynch-is-toying-with-us/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/2020/02/15/david-lynch-is-toying-with-us/</guid>
+      <guid>/2020/02/15/david-lynch-is-toying-with-us/</guid>
       <description>&lt;p&gt;I write this post while watching &lt;em&gt;Rabbits&lt;/em&gt;, a work of exceptional mystery but unexceptional tension.
 Lynch casts two regulars&amp;mdash;Laura Harring and Naomi Watts&amp;mdash;opposite one newbie&amp;mdash;Scott Coffey&amp;mdash;as man-sized rabbits in what appears to be the &lt;em&gt;Blue Velvet&lt;/em&gt; apartment set.
 These short films, available &lt;a href=&#34;https://www.youtube.com/playlist?list=PLSSx9jvH6luUPl-bqfqaJ8z8vHDqlu5ji&#34; target=&#34;_blank&#34;&gt;on YouTube&lt;/a&gt;, trip over several of Lynch&amp;rsquo;s signature aspects: characters sing haunting songs; mundane life is treated as a social experiment; and Angelo Baldametti&amp;rsquo;s synthesizers underscore everything.
@@ -136,9 +139,9 @@ Language is contingent, subject to chance mutation and adoption, and not subject
     
     <item>
       <title>*Just Mercy* – a Legal Drama Adaptation That Fails to Do Justice to a Compelling Memoir</title>
-      <link>https://runkelcorey.github.io/2019/12/25/just-mercy-review/</link>
+      <link>/2019/12/25/just-mercy-review/</link>
       <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/2019/12/25/just-mercy-review/</guid>
+      <guid>/2019/12/25/just-mercy-review/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Edit 1/20/2020: check out &lt;a href=&#34;https://popculturebento.com/just-mercy-a-legal-drama-adaptation-that-fails-to-do-justice-to-a-compelling-memoir/&#34; target=&#34;_blank&#34;&gt;this article&lt;/a&gt; at &lt;em&gt;Pop Culture Bento&lt;/em&gt;!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;*Just Mercy*’s most powerful scenes concern three different people condemned to death, all legally represented by Bryan Stevenson (Michael B. Jordan). These scenes punctuate the film, as we witness Stevenson’s growth from timid law student to successful advocate for those on death row. The strengths of *Just Mercy*—the eponymous memoir by Stevenson—lie in its plot and the range of lives contained within. But while the movie safely navigates the politics of portraying incarceration and gross injustice, it runs aground by bashing its viewership over the head by over-telling a story well shown.&lt;/p&gt;
@@ -166,9 +169,9 @@ Language is contingent, subject to chance mutation and adoption, and not subject
     
     <item>
       <title>Jojo Rabbit Explores Universal Notions of Morality through a Childlike Perspective</title>
-      <link>https://runkelcorey.github.io/2019/11/30/jojo-rabbit-review/</link>
+      <link>/2019/11/30/jojo-rabbit-review/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/2019/11/30/jojo-rabbit-review/</guid>
+      <guid>/2019/11/30/jojo-rabbit-review/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Edit 11/30/2019: check &lt;a href=&#34;https://popculturebento.com/jojo-rabbit-explores-universal-notions-of-morality-through-a-childlike-perspective/&#34; target=&#34;_blank&#34;&gt;this article&lt;/a&gt; out at &lt;em&gt;Pop Culture Bento&lt;/em&gt;!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Imagine a Beaux Arts mashup of &lt;em&gt;The Great Dictator&lt;/em&gt; and &lt;em&gt;Life is Beautiful&lt;/em&gt; set inside a &lt;em&gt;Moonrise Kingdom&lt;/em&gt; prequel. Can’t? Taika Waititi has. &lt;em&gt;Jojo Rabbit&lt;/em&gt; finds a small, timid Hitler Youth (the &lt;em&gt;Moonrise Kingdom&lt;/em&gt; bit) named Jojo (Roman Griffin Davis) in a world much too big for him. Waititi brings the fanaticism and anti-Semitism of Nazi Germany into close quarters by portraying Jojo’s imaginary friend, Adolf Hitler. His portrayal is an incredible use of dramatic irony: we see the craziness of Hitler’s cult of personality and ideology, while the ten year-old sees his idol. Same as any sports star, Jojo’s room is decked out in memorabilia and posters to the Führer’s power.&lt;/p&gt;
@@ -181,9 +184,9 @@ Language is contingent, subject to chance mutation and adoption, and not subject
     
     <item>
       <title>Parasite Refreshes Horror with a Hefty Dose of Social Realism</title>
-      <link>https://runkelcorey.github.io/2019/11/11/parasite-review/</link>
+      <link>/2019/11/11/parasite-review/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/2019/11/11/parasite-review/</guid>
+      <guid>/2019/11/11/parasite-review/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Edit 11/15/2019: check &lt;a href=&#34;https://popculturebento.com/parasite-refreshes-horror-with-a-hefty-dose-of-social-realism/&#34; target=&#34;_blank&#34;&gt;this article&lt;/a&gt; out at &lt;em&gt;Pop Culture Bento&lt;/em&gt;!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;No review—drawn inevitably from the vocabulary and lessons of preceding films—will do the novelty and creativity of Bong Joon-ho’s masterpiece justice. &lt;em&gt;Parasite&lt;/em&gt; is the best film to be released since &lt;em&gt;Mad Max: Fury Road&lt;/em&gt;, possibly since &lt;em&gt;12 Years a Slave&lt;/em&gt;. *Parasite*’s uncanny setting makes possible its combination of comedy and horror that justifies the second act’s shocking twists. In this way, it can be seen as the Korean and class counterpart to Get Out, with more emphasis on the realism than the horror.&lt;/p&gt;
@@ -196,9 +199,9 @@ Language is contingent, subject to chance mutation and adoption, and not subject
     
     <item>
       <title>Distortion in Vertigo (1958)</title>
-      <link>https://runkelcorey.github.io/2019/08/27/vertigo-1958/</link>
+      <link>/2019/08/27/vertigo-1958/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/2019/08/27/vertigo-1958/</guid>
+      <guid>/2019/08/27/vertigo-1958/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Edit 10/20/2019: check &lt;a href=&#34;https://popculturebento.com/the-all-american-gaze-distorted-perspective-in-alfred-hitchcocks-vertigo/&#34; target=&#34;_blank&#34;&gt;this article&lt;/a&gt; out at &lt;em&gt;Pop Culture Bento&lt;/em&gt;!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Hitchcock’s cinematographic style changes with each script and year in which he immerses himself, unlike the storybook qualities of Wes Anderson or the placid &lt;a href=&#34;https://www.goodreads.com/quotes/665415-drops-dripped-quiet-talk-went-on-horses-neighed-and-scuffled&#34; target=&#34;_blank&#34;&gt;Drops dripped&lt;/a&gt; of Andrei Tarkovsky. &lt;em&gt;Vertigo&lt;/em&gt;, at the &lt;a href=&#34;https://www.bbc.com/news/entertainment-arts-19078948&#34; target=&#34;_blank&#34;&gt;dizzying heights&lt;/a&gt; of Hitchcock’s mastery, leads us into John Ferguson’s (James Stewart) mind&amp;mdash;distorted by the lethal, dozen-story fall of a partner trying to save Ferguson&amp;mdash;by forcing us into cramped spaces and mocking our spatial judgment. I argue that in doing so, Hitchcock forces viewers to understand the disorientation and claustrophobia that Ferguson so clearly feels. In doing so, Hitchcock makes reasonable the otherwise unreasonable male gaze of Ferguson and, by association, the effects that gaze causes, though it’s unclear whether it serves to morally justify that gaze. So, in-movie, Hitchcock uses film technique to warp what would otherwise be a black-and-white judgment about Ferguson’s behavior towards Judy Barton (Kim Novak).  Out-of-movie, I finally make the claim that this in-movie phenomenon critiques white American masculinity’s treatment of the Other.&lt;/p&gt;

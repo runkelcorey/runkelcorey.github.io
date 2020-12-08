@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R | Corey Runkel</title>
-    <link>https://runkelcorey.github.io/categories/r/</link>
-      <atom:link href="https://runkelcorey.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/r/</link>
+      <atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright><lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://runkelcorey.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>R</title>
-      <link>https://runkelcorey.github.io/categories/r/</link>
+      <link>/categories/r/</link>
     </image>
     
     <item>
       <title>Political Analysis of US Housing</title>
-      <link>https://runkelcorey.github.io/project/housing/</link>
+      <link>/project/housing/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/project/housing/</guid>
+      <guid>/project/housing/</guid>
       <description>&lt;p&gt;Housing politics have occupied the last year of my time between the Urban Planning and Politics departments at UVA. My individual work began with &lt;a href=&#34;../../publication/thesis/actors-motive.html&#34;&gt;my undergraduate thesis&lt;/a&gt; in Political &amp;amp; Social Thought, and I hope to expand it to analyze home price time series across the nation to refine and extend my estimation of the impact had by the Neighborhood Stabilization Program.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Political Impacts of Residential Mortgages in Crisis</title>
-      <link>https://runkelcorey.github.io/publication/thesis/</link>
+      <link>/publication/thesis/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/publication/thesis/</guid>
+      <guid>/publication/thesis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Federal Register API</title>
-      <link>https://runkelcorey.github.io/2019/08/03/federal-register-api/</link>
+      <link>/2019/08/03/federal-register-api/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/2019/08/03/federal-register-api/</guid>
+      <guid>/2019/08/03/federal-register-api/</guid>
       <description>
 
 &lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;

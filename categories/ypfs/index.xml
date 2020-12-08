@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>YPFS | Corey Runkel</title>
-    <link>https://runkelcorey.github.io/categories/ypfs/</link>
-      <atom:link href="https://runkelcorey.github.io/categories/ypfs/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/ypfs/</link>
+      <atom:link href="/categories/ypfs/index.xml" rel="self" type="application/rss+xml" />
     <description>YPFS</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://runkelcorey.github.io/img/icon-192.png</url>
+      <url>/img/icon-192.png</url>
       <title>YPFS</title>
-      <link>https://runkelcorey.github.io/categories/ypfs/</link>
+      <link>/categories/ypfs/</link>
     </image>
     
     <item>
       <title>Reserve liquidity facilities shift from advanced economies to emerging markets</title>
-      <link>https://runkelcorey.github.io/2020/07/01/reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/</link>
+      <link>/2020/07/01/reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/2020/07/01/reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/</guid>
+      <guid>/2020/07/01/reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;This post was originally &lt;a href=&#34;https://som.yale.edu/blog/reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets&#34; target=&#34;_blank&#34;&gt;published&lt;/a&gt; on the YPFS Systemic Risk blog&lt;/strong&gt;&lt;/p&gt;
@@ -57,7 +57,7 @@ ggplot(tradewt) +
         panel.background = element_rect(fill = NA), panel.grid = element_line(color = &amp;quot;#dddddd&amp;quot;))
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://runkelcorey.github.io/post/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets.en_files/figure-html/plot-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets.en_files/figure-html/plot-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The speed and authority with which the Fed provides liquidity for the largest reserve currency market have &lt;a href=&#34;https://www.ft.com/content/df9e34aa-9b5c-11ea-adb1-529f96d8a00b&#34; target=&#34;_blank&#34;&gt;bolstered&lt;/a&gt; the central bank’s reputation. This most recent resurgence of swap lines has led &lt;a href=&#34;https://www.bloomberg.com/news/articles/2020-03-31/fed-takes-on-role-of-world-s-central-bank-by-pumping-out-dollars?srnd=fixed-income&amp;amp;sref=qZkWojPY&#34; target=&#34;_blank&#34;&gt;some&lt;/a&gt; to &lt;a href=&#34;https://www.wsj.com/articles/the-fed-is-settling-into-its-role-as-the-worlds-central-bank-11585732095&#34; target=&#34;_blank&#34;&gt;assert&lt;/a&gt; that the Fed is not only a central bank to the US, but also to the world, offering short-term emergency liquidity when central banks &amp;ndash; liquid in their own currency &amp;ndash; are strapped for US dollars. As with domestic lender-of-last-resort operations, the transactions have always been initiated by a counterparty, never by the Fed. Although swap agreements are bilateral, the US &lt;a href=&#34;https://www.federalreserve.gov/regreform/reform-swaplines.htm&#34; target=&#34;_blank&#34;&gt;has never drawn&lt;/a&gt; on a currency swap line.&lt;/p&gt;
 
@@ -77,9 +77,9 @@ ggplot(tradewt) +
     
     <item>
       <title>Debt Mounts for US Retail and Lodging Mortgagors</title>
-      <link>https://runkelcorey.github.io/2020/06/18/debt-mounts-for-us-retail-and-lodging-mortgagors/</link>
+      <link>/2020/06/18/debt-mounts-for-us-retail-and-lodging-mortgagors/</link>
       <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/2020/06/18/debt-mounts-for-us-retail-and-lodging-mortgagors/</guid>
+      <guid>/2020/06/18/debt-mounts-for-us-retail-and-lodging-mortgagors/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;This post was originally &lt;a href=&#34;https://som.yale.edu/blog/debt-mounts-for-us-retail-and-lodging-mortgagors&#34; target=&#34;_blank&#34;&gt;published&lt;/a&gt; on the YPFS Systemic Risk blog&lt;/strong&gt;&lt;/p&gt;
@@ -120,7 +120,7 @@ read_csv(&amp;quot;../../static/data/reit.csv&amp;quot;) %&amp;gt;%
 &lt;pre&gt;&lt;code&gt;## Warning: Removed 23 row(s) containing missing values (geom_path).
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://runkelcorey.github.io/post/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors.en_files/figure-html/reit_plot-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors.en_files/figure-html/reit_plot-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The market’s gradual recovery may have been informed by other indicators than the overall delinquency rate. Though 7.15% of securitized commercial mortgages were delinquent in May, 70% of those were only one month late. Trepp noted that a large number of mortgages remained in their 30-day grace period or actually reverted to current on their payments, though historically high delinquencies should still be expected.&lt;/p&gt;
 
@@ -149,7 +149,7 @@ ggplot(delin) +
         panel.background = element_rect(fill = NA), panel.grid = element_line(color = &amp;quot;#dddddd&amp;quot;))
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://runkelcorey.github.io/post/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors.en_files/figure-html/delinquencies-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors.en_files/figure-html/delinquencies-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;support-for-commercial-real-estate-must-proceed-carefully&#34;&gt;Support for commercial real estate must proceed carefully&lt;/h3&gt;
 
@@ -173,9 +173,9 @@ ggplot(delin) +
     
     <item>
       <title>Federal Reserve further expands access to Municipal Liquidity Facility</title>
-      <link>https://runkelcorey.github.io/2020/06/09/federal-reserve-further-expands-access-to-municipal-liquidity-facility/</link>
+      <link>/2020/06/09/federal-reserve-further-expands-access-to-municipal-liquidity-facility/</link>
       <pubDate>Tue, 09 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/2020/06/09/federal-reserve-further-expands-access-to-municipal-liquidity-facility/</guid>
+      <guid>/2020/06/09/federal-reserve-further-expands-access-to-municipal-liquidity-facility/</guid>
       <description>&lt;p&gt;&lt;strong&gt;This post was originally &lt;a href=&#34;https://som.yale.edu/blog/federal-reserve-further-expands-access-to-municipal-liquidity-facility&#34; target=&#34;_blank&#34;&gt;published&lt;/a&gt; on the YPFS Systemic Risk blog&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;On June 3, the Federal Reserve Board of Governors &lt;a href=&#34;https://www.federalreserve.gov/aboutthefed/boardvotes.htm&#34; target=&#34;_blank&#34;&gt;unanimously approved&lt;/a&gt; a &lt;a href=&#34;https://www.federalreserve.gov/newsevents/pressreleases/monetary20200603a.htm&#34; target=&#34;_blank&#34;&gt;second expansion&lt;/a&gt; of eligibility under its Municipal Liquidity Facility (&lt;a href=&#34;https://www.federalreserve.gov/monetarypolicy/muni.htm&#34; target=&#34;_blank&#34;&gt;MLF&lt;/a&gt;).&lt;/p&gt;
