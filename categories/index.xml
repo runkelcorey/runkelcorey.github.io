@@ -5,12 +5,44 @@
     <link>https://runkelcorey.github.io/categories/</link>
       <atom:link href="https://runkelcorey.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Categories</title>
       <link>https://runkelcorey.github.io/categories/</link>
     </image>
+    
+    <item>
+      <title>YPFS</title>
+      <link>https://runkelcorey.github.io/categories/ypfs/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/categories/ypfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code bits</title>
+      <link>https://runkelcorey.github.io/categories/code-bits/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/categories/code-bits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open data</title>
+      <link>https://runkelcorey.github.io/categories/open-data/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/categories/open-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>life</title>
+      <link>https://runkelcorey.github.io/categories/life/</link>
+      <pubDate>Sat, 13 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/categories/life/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>culture</title>
@@ -53,33 +85,17 @@
     </item>
     
     <item>
-      <title>YPFS</title>
-      <link>https://runkelcorey.github.io/categories/ypfs/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/categories/ypfs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>R</title>
       <link>https://runkelcorey.github.io/categories/r/</link>
-      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://runkelcorey.github.io/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>open data</title>
-      <link>https://runkelcorey.github.io/categories/open-data/</link>
-      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/categories/open-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spatial analysis</title>
       <link>https://runkelcorey.github.io/categories/spatial-analysis/</link>
-      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://runkelcorey.github.io/categories/spatial-analysis/</guid>
       <description></description>
     </item>

@@ -5,12 +5,70 @@
     <link>https://runkelcorey.github.io/</link>
       <atom:link href="https://runkelcorey.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Corey Runkel</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Corey Runkel</title>
       <link>https://runkelcorey.github.io/</link>
     </image>
+    
+    <item>
+      <title>YPFS Citation Style Language</title>
+      <link>https://runkelcorey.github.io/2021/03/24/ypfs-citation-style-language/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/2021/03/24/ypfs-citation-style-language/</guid>
+      <description>&lt;p&gt;When I started at YPFS, we did all COVID all the time.
+I&amp;rsquo;d wake up, get paid to doomscroll, and pump out some blogs about what was happening. When we reverted to case-writing, a huge backlog of cases had to be prepped for publication.
+Many of these were years-old.
+They neither shared common formatting nor common citations, and&amp;mdash;because the cases were so old&amp;mdash;the original authors had moved on to bigger and better things.
+We needed to solve all the problems that come with a team distributed not only across space but also time.&lt;/p&gt;
+
+&lt;p&gt;For literal centuries, publications have solved this problem with style guides and time-consuming editing practices.
+However, these are only as strong as their enforcement.
+Without savvy, patient editors and authors with hours to spare, editing for standardization rightfully takes a back seat to editing for clarity and content.
+A somewhat newer solution involves distributing Word templates that authors simply fill in, Mad-Libs style.
+But again, you run into the problem of enforcement.
+The first time a line breaks where you don&amp;rsquo;t want it to, or you copy the source style along with the text, the Word template ceases to be &lt;em&gt;authoritative&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Moreover, for editors reviewing work years later, if citations aren&amp;rsquo;t perfect or comprehensive, finding the original document can be a bear.
+These systems do not &lt;em&gt;link the product to the process&lt;/em&gt;.
+They allow authors to keep &amp;ldquo;two sets of books&amp;rdquo;: one, incomplete but well-formatted, that gets published; another, complete but unstructured, located somewhere without a link tracing to it.
+In this way, Word documents&amp;mdash;for all the ways they liberate formatting and track changes&amp;mdash;are little different from plain paper.
+We have had &lt;a href=&#34;https://en.wikipedia.org/wiki/Hypertext&#34; target=&#34;_blank&#34;&gt;ways&lt;/a&gt; to &lt;a href=&#34;https://en.wikipedia.org/wiki/Hypertext&#34; target=&#34;_blank&#34;&gt;connect&lt;/a&gt; product and process for years, but it is hard to generate buy-in.
+Some compromise between accessibility (plain-text editors aren&amp;rsquo;t familiar to most) and utility (e.g. Markdown would be ideal) is usually required.&lt;/p&gt;
+
+&lt;p&gt;Our compromise is the amazing reference manager &lt;a href=&#34;https://www.zotero.org&#34; target=&#34;_blank&#34;&gt;Zotero&lt;/a&gt;.
+It builds citations using Citation Style Language (&lt;a href=&#34;https://docs.citationstyles.org/en/stable/primer.html&#34; target=&#34;_blank&#34;&gt;CSL&lt;/a&gt;).
+CSL imposes it style in Word documents using fields (kinda like those used often for page numbers or automatically updating dates) that it controls.
+In this way it is authoritative.
+Zotero feeds it information stored in its desktop app.
+What you put in is put out on the page.
+In this way it connects product to process: to create a correct and nice-looking bibliography requires citing throughout a document and inputting data correctly to Zotero, which is super easy to search and connects documents to their contexts on the web.&lt;/p&gt;
+
+&lt;p&gt;CSL, is also open source, which means that we could configure a style to our liking.
+While we mostly like Chicago (author-date) style, I and another Research Associate updated it with some contextual information.
+I learnt this XML-like language and have been deploying it with Git.
+It&amp;rsquo;s my first experience developing software that people actually &lt;em&gt;use&lt;/em&gt;.
+This makes a huge difference!
+Working with something that will be used in the future by end-users made me think several steps ahead to maintain forward- and backward-compatibility, and reminded me how much I enjoy solving problems.&lt;/p&gt;
+
+&lt;p&gt;Check out the code &lt;a href=&#34;https://github.com/runkelcorey/ypfs/blob/master/ypfs-mini.csl&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Morning bike ride at East Rock Park</title>
+      <link>https://runkelcorey.github.io/2021/03/13/morning-bike-ride-at-east-rock-park/</link>
+      <pubDate>Sat, 13 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/2021/03/13/morning-bike-ride-at-east-rock-park/</guid>
+      <description>&lt;p&gt;Spring returned to New Haven on Thursday!
+A lot evaporated overnight as temperatures rose, and I was fortunate to snap these photos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/loz1Q4DzdI_vihdmX_Z66BNf_m64N4J2p85BXKfUBVn9zHWQuzq1s_hS9RMBIV8pMw_EB4cpdZjwQrtUcVXTBhl8wvOOsxAUJnGmMDoVoDt1SA2NWnFtCyf-wFx37QTu-eWHxz01NDX2KWAgKB2bkBlVqAl9r-QhlVQS2dtMD4CHbFjHO8ZHw5MMJC6Pd1l7yc5qavuYlKH_6EgKll2mCjQImGClZ7NbHlXMLcpqID-f3zOdm5QO2KnYXpQ1miv4pbg5l18cDy7uf4e9lj0e9Rt4icifNiXYkjeESOIzf45Q9A-BQmnL9TMplgTq3TMdfVlKYcNLK5iGYvIwwVwiu_TbAEWhe8QOVxZTjc2Fg6aEXE8hQSbWY19Ovg8p5O1X_Hg6WWmo-ElD2fll4Dmi3T1uvHMp_sE08P97A36nBnqeyjgbppDd0fkl1v220HPtVRObOZ2HOj46w5GGaKzslUJTjFgDcRLRJbge9vKSKy_ipISE9G6iCu5FjNPUZdVdjnMoJcqfvBuwvs3Dv9Mx3357h0ETz-Ii2VGrOwdZXmjLR2lsG2PRDdgAON7-M_V7_Yqcsypp_rK8YyZ0rYm-lCTaWpHZFMiOKYTDTfIcXWQk6M2Dz2JyUyNnGGMc-C_APmYGMr9yaaKQ0IaZYbzmeHP-uGS_DatTWy3wywQ8nC-8BhHe9PzjvM3EK5U6-8z3NFvyLa9tKYcoLD5cw4GoEeu4=w843-h903-no?authuser=0&#34; alt=&#34;The foggy path down from East Rock Park&#39;s &amp;quot;summit&amp;quot;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://lh3.googleusercontent.com/IhNeBCC89xH1f9933SfL1fN1P-m0800DemZfpBVmK6_WwCaUp5X0ipeiDuSpOs47M3F8Hc7lAujodM1aoXXi-ZCIcC9DbYrQ8hf-dZD-lg29BJeVLgijCp-h1ZcXXm--uB20oqhj1CEyzok_m-xXU1tjWD8Ot2dmqyXQnHNxsaCxzwAbChSz6rjKtBzJLB_Mn67vbQ51G2VHMW8Wh7XVg5e2dsh6p-gcqH9EOPIyyfbeBO78ip6MRm9lqo9gATZsYPHv0ERhffZcC-Fo8qqrtOQSZJm8zveCTGFmouJwz07zoEOmv0PUgsbrEDGNk3dYiFpfC7Uc4kfY4jJiOsLFheQjy1uYD5MnXiqPP0u22HoSH4MEHH9_bHhiGZSz4L9Rafo7CHA6blTSo2VQfvWfbG5PxsvNsOE63AffUk4LyspNJ5ARneFUSdHtWovUxHvYtClJUNmWe4niQ3iUg9HS7nQ4e-urFQWgKJATqcpAKzZHeFsOMir5zRKDaaaxwsjsBv3fAu7HJ6hxBNRctTx86o8bi0SQLbD2NUJcUMMrN6kcYOoWs1QiEhUn-XdEtxn2mD54_N_pj1PUW1waOec0hoWTK2o49__xrUgSF9vyBtotqmu9sszYimiE59sDLmPnTwX73qrvZAjU95a8RFjGPZRFAANydcmwdbV3qX-Uu91VURvZudh6659h74WkkLYvjMniQQoLvMCyn3iffjODEzs8=w678-h903-no?authuser=0&#34; alt=&#34;A bike&#39;s eye view&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How long do actors have left?</title>
@@ -373,15 +431,6 @@ ggplot(delin) +
 &lt;p&gt;Politico &lt;a href=&#34;https://nam05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsubscriber.politicopro.com%2Fdatapoint%2F2020%2F05%2Fpro-analysis-what-you-need-to-know-about-the-municipal-bond-market-101286&amp;amp;data=02%7C01%7Ccorey.runkel%40yale.edu%7Cfcd2daef45404ac856f708d80bade8a3%7Cdd8cbebb21394df8b4114e3e87abeb5c%7C0%7C0%7C637272188841278572&amp;amp;sdata=QLHhjyolYQ3O%2F9SU2ZQfZXgHOnyneICd%2Bjfgje5R7uI%3D&amp;amp;reserved=0&#34; target=&#34;_blank&#34;&gt;pointed&lt;/a&gt; to House Ways &amp;amp; Means Chair Richard Neal as a catalyst for more intervention in munis. Even before the novel coronavirus, the former mayor of Springfield, Massachusetts, had established himself as a supporter of municipal bonds. However, aid may instead come from traditional fiscal policy routes should the Fed hold firm on its new eligibility thresholds. Neal represents Springfield and its enclosing county Hampden, each of which just miss these newest MLF population thresholds.&lt;/p&gt;
 
 &lt;p&gt;Thus far, Illinois is the only state to &lt;a href=&#34;https://www.ft.com/content/5393bdc7-02a2-4ec7-81c3-4d6088216a6c&#34; target=&#34;_blank&#34;&gt;announce&lt;/a&gt; its participation in the MLF, issuing $1.2 billion in 12-month maturities at 3.82%.The MLF became operational on May 26.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Political Analysis of US Housing</title>
-      <link>https://runkelcorey.github.io/project/housing/</link>
-      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/project/housing/</guid>
-      <description>&lt;p&gt;Housing politics have occupied the last year of my time between the Urban Planning and Politics departments at UVA. My individual work began with &lt;a href=&#34;../../publication/thesis/actors-motive.html&#34;&gt;my undergraduate thesis&lt;/a&gt; in Political &amp;amp; Social Thought, and I hope to expand it to analyze home price time series across the nation to refine and extend my estimation of the impact had by the Neighborhood Stabilization Program.&lt;/p&gt;
 </description>
     </item>
     

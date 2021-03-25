@@ -5,12 +5,60 @@
     <link>https://runkelcorey.github.io/tags/</link>
       <atom:link href="https://runkelcorey.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://runkelcorey.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>CSL</title>
+      <link>https://runkelcorey.github.io/tags/csl/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/tags/csl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XML</title>
+      <link>https://runkelcorey.github.io/tags/xml/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/tags/xml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open data</title>
+      <link>https://runkelcorey.github.io/tags/open-data/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/tags/open-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>publishing</title>
+      <link>https://runkelcorey.github.io/tags/publishing/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/tags/publishing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>biking</title>
+      <link>https://runkelcorey.github.io/tags/biking/</link>
+      <pubDate>Sat, 13 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/tags/biking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>new haven</title>
+      <link>https://runkelcorey.github.io/tags/new-haven/</link>
+      <pubDate>Sat, 13 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/tags/new-haven/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Lil Miquela</title>
@@ -249,14 +297,6 @@
       <link>https://runkelcorey.github.io/tags/r/</link>
       <pubDate>Tue, 06 Aug 2019 21:42:21 -0400</pubDate>
       <guid>https://runkelcorey.github.io/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>open data</title>
-      <link>https://runkelcorey.github.io/tags/open-data/</link>
-      <pubDate>Tue, 06 Aug 2019 21:42:21 -0400</pubDate>
-      <guid>https://runkelcorey.github.io/tags/open-data/</guid>
       <description></description>
     </item>
     
