@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Corey Runkel</title>
-    <link>/categories/</link>
-      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://runkelcorey.github.io/categories/</link>
+      <atom:link href="https://runkelcorey.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Categories</title>
-      <link>/categories/</link>
+      <link>https://runkelcorey.github.io/categories/</link>
     </image>
     
     <item>
       <title>culture</title>
-      <link>/categories/culture/</link>
+      <link>https://runkelcorey.github.io/categories/culture/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/categories/culture/</guid>
+      <guid>https://runkelcorey.github.io/categories/culture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>film</title>
-      <link>/categories/film/</link>
+      <link>https://runkelcorey.github.io/categories/film/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/categories/film/</guid>
+      <guid>https://runkelcorey.github.io/categories/film/</guid>
       <description></description>
     </item>
     
     <item>
       <title>political economy</title>
-      <link>/categories/political-economy/</link>
+      <link>https://runkelcorey.github.io/categories/political-economy/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/categories/political-economy/</guid>
+      <guid>https://runkelcorey.github.io/categories/political-economy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>predictions</title>
-      <link>/categories/predictions/</link>
+      <link>https://runkelcorey.github.io/categories/predictions/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/categories/predictions/</guid>
+      <guid>https://runkelcorey.github.io/categories/predictions/</guid>
       <description></description>
     </item>
     
     <item>
       <title>analysis</title>
-      <link>/categories/analysis/</link>
+      <link>https://runkelcorey.github.io/categories/analysis/</link>
       <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/categories/analysis/</guid>
+      <guid>https://runkelcorey.github.io/categories/analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>YPFS</title>
-      <link>/categories/ypfs/</link>
+      <link>https://runkelcorey.github.io/categories/ypfs/</link>
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/categories/ypfs/</guid>
+      <guid>https://runkelcorey.github.io/categories/ypfs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/categories/r/</link>
+      <link>https://runkelcorey.github.io/categories/r/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/categories/r/</guid>
+      <guid>https://runkelcorey.github.io/categories/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>open data</title>
-      <link>/categories/open-data/</link>
+      <link>https://runkelcorey.github.io/categories/open-data/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/categories/open-data/</guid>
+      <guid>https://runkelcorey.github.io/categories/open-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spatial analysis</title>
-      <link>/categories/spatial-analysis/</link>
+      <link>https://runkelcorey.github.io/categories/spatial-analysis/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/categories/spatial-analysis/</guid>
+      <guid>https://runkelcorey.github.io/categories/spatial-analysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>essay</title>
-      <link>/categories/essay/</link>
+      <link>https://runkelcorey.github.io/categories/essay/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/categories/essay/</guid>
+      <guid>https://runkelcorey.github.io/categories/essay/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fitness</title>
-      <link>/categories/fitness/</link>
+      <link>https://runkelcorey.github.io/categories/fitness/</link>
       <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/categories/fitness/</guid>
+      <guid>https://runkelcorey.github.io/categories/fitness/</guid>
       <description></description>
     </item>
     

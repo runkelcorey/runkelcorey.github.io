@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>7 | Corey Runkel</title>
-    <link>/publication_types/7/</link>
-      <atom:link href="/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://runkelcorey.github.io/publication_types/7/</link>
+      <atom:link href="https://runkelcorey.github.io/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
     <description>7</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright><lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>7</title>
-      <link>/publication_types/7/</link>
+      <link>https://runkelcorey.github.io/publication_types/7/</link>
     </image>
     
     <item>
       <title>Political Impacts of Residential Mortgages in Crisis</title>
-      <link>/publication/thesis/</link>
+      <link>https://runkelcorey.github.io/publication/thesis/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/thesis/</guid>
+      <guid>https://runkelcorey.github.io/publication/thesis/</guid>
       <description></description>
     </item>
     

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Corey Runkel</title>
-    <link>/authors/corey/</link>
-      <atom:link href="/authors/corey/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://runkelcorey.github.io/authors/corey/</link>
+      <atom:link href="https://runkelcorey.github.io/authors/corey/index.xml" rel="self" type="application/rss+xml" />
     <description>Corey Runkel</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Corey Runkel</title>
-      <link>/authors/corey/</link>
+      <link>https://runkelcorey.github.io/authors/corey/</link>
     </image>
     
     <item>
       <title></title>
-      <link>/authors/corey/</link>
+      <link>https://runkelcorey.github.io/authors/corey/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/authors/corey/</guid>
+      <guid>https://runkelcorey.github.io/authors/corey/</guid>
       <description>&lt;p&gt;Corey Runkel is a Research Associate at the Yale Program on Financial Stability and Tobin Center Pre-Doctoral Fellow.
-He&amp;rsquo;s interested in everything under the sun, though some things under the sun&amp;mdash;political economy, regional governance, and communication, for instance&amp;mdash;have held his interest longer.&lt;/p&gt;
+He&amp;rsquo;s interested in everything under the sun, though some things under the sun&amp;mdash;political economy, payments systems, communication, to name a few&amp;mdash;have held his interest longer.&lt;/p&gt;
 
 &lt;p&gt;Corey uses this website to exercise his writing muscles, document his work, and spew the thoughts that occur to him while cooking pasta, climbing rocks, and riding his bike.&lt;/p&gt;
 </description>

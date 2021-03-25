@@ -2,277 +2,277 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Corey Runkel</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://runkelcorey.github.io/tags/</link>
+      <atom:link href="https://runkelcorey.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2020</copyright><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Tags</title>
-      <link>/tags/</link>
+      <link>https://runkelcorey.github.io/tags/</link>
     </image>
     
     <item>
       <title>Lil Miquela</title>
-      <link>/tags/lil-miquela/</link>
+      <link>https://runkelcorey.github.io/tags/lil-miquela/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/lil-miquela/</guid>
+      <guid>https://runkelcorey.github.io/tags/lil-miquela/</guid>
       <description></description>
     </item>
     
     <item>
       <title>animation</title>
-      <link>/tags/animation/</link>
+      <link>https://runkelcorey.github.io/tags/animation/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/animation/</guid>
+      <guid>https://runkelcorey.github.io/tags/animation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>capitalism</title>
-      <link>/tags/capitalism/</link>
+      <link>https://runkelcorey.github.io/tags/capitalism/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/capitalism/</guid>
+      <guid>https://runkelcorey.github.io/tags/capitalism/</guid>
       <description></description>
     </item>
     
     <item>
       <title>efficiency</title>
-      <link>/tags/efficiency/</link>
+      <link>https://runkelcorey.github.io/tags/efficiency/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/efficiency/</guid>
+      <guid>https://runkelcorey.github.io/tags/efficiency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>political economy</title>
-      <link>/tags/political-economy/</link>
+      <link>https://runkelcorey.github.io/tags/political-economy/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/political-economy/</guid>
+      <guid>https://runkelcorey.github.io/tags/political-economy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>studio system</title>
-      <link>/tags/studio-system/</link>
+      <link>https://runkelcorey.github.io/tags/studio-system/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/studio-system/</guid>
+      <guid>https://runkelcorey.github.io/tags/studio-system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>foreclosures</title>
-      <link>/tags/foreclosures/</link>
+      <link>https://runkelcorey.github.io/tags/foreclosures/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/foreclosures/</guid>
+      <guid>https://runkelcorey.github.io/tags/foreclosures/</guid>
       <description></description>
     </item>
     
     <item>
       <title>housing</title>
-      <link>/tags/housing/</link>
+      <link>https://runkelcorey.github.io/tags/housing/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/housing/</guid>
+      <guid>https://runkelcorey.github.io/tags/housing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>subprime mortgage crisis</title>
-      <link>/tags/subprime-mortgage-crisis/</link>
+      <link>https://runkelcorey.github.io/tags/subprime-mortgage-crisis/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/subprime-mortgage-crisis/</guid>
+      <guid>https://runkelcorey.github.io/tags/subprime-mortgage-crisis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>america</title>
-      <link>/tags/america/</link>
+      <link>https://runkelcorey.github.io/tags/america/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/america/</guid>
+      <guid>https://runkelcorey.github.io/tags/america/</guid>
       <description></description>
     </item>
     
     <item>
       <title>david lynch</title>
-      <link>/tags/david-lynch/</link>
+      <link>https://runkelcorey.github.io/tags/david-lynch/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/david-lynch/</guid>
+      <guid>https://runkelcorey.github.io/tags/david-lynch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cooking</title>
-      <link>/tags/cooking/</link>
+      <link>https://runkelcorey.github.io/tags/cooking/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/cooking/</guid>
+      <guid>https://runkelcorey.github.io/tags/cooking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>theory</title>
-      <link>/tags/theory/</link>
+      <link>https://runkelcorey.github.io/tags/theory/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/theory/</guid>
+      <guid>https://runkelcorey.github.io/tags/theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>drama</title>
-      <link>/tags/drama/</link>
+      <link>https://runkelcorey.github.io/tags/drama/</link>
       <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/drama/</guid>
+      <guid>https://runkelcorey.github.io/tags/drama/</guid>
       <description></description>
     </item>
     
     <item>
       <title>movie review</title>
-      <link>/tags/movie-review/</link>
+      <link>https://runkelcorey.github.io/tags/movie-review/</link>
       <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/movie-review/</guid>
+      <guid>https://runkelcorey.github.io/tags/movie-review/</guid>
       <description></description>
     </item>
     
     <item>
       <title>comedy</title>
-      <link>/tags/comedy/</link>
+      <link>https://runkelcorey.github.io/tags/comedy/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/comedy/</guid>
+      <guid>https://runkelcorey.github.io/tags/comedy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>just released</title>
-      <link>/tags/just-released/</link>
+      <link>https://runkelcorey.github.io/tags/just-released/</link>
       <pubDate>Sat, 30 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/just-released/</guid>
+      <guid>https://runkelcorey.github.io/tags/just-released/</guid>
       <description></description>
     </item>
     
     <item>
       <title>culture</title>
-      <link>/tags/culture/</link>
+      <link>https://runkelcorey.github.io/tags/culture/</link>
       <pubDate>Thu, 21 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/culture/</guid>
+      <guid>https://runkelcorey.github.io/tags/culture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>fitness</title>
-      <link>/tags/fitness/</link>
+      <link>https://runkelcorey.github.io/tags/fitness/</link>
       <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/fitness/</guid>
+      <guid>https://runkelcorey.github.io/tags/fitness/</guid>
       <description></description>
     </item>
     
     <item>
       <title>running</title>
-      <link>/tags/running/</link>
+      <link>https://runkelcorey.github.io/tags/running/</link>
       <pubDate>Sat, 16 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/running/</guid>
+      <guid>https://runkelcorey.github.io/tags/running/</guid>
       <description></description>
     </item>
     
     <item>
       <title>horror</title>
-      <link>/tags/horror/</link>
+      <link>https://runkelcorey.github.io/tags/horror/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/horror/</guid>
+      <guid>https://runkelcorey.github.io/tags/horror/</guid>
       <description></description>
     </item>
     
     <item>
       <title>joon bong ho</title>
-      <link>/tags/joon-bong-ho/</link>
+      <link>https://runkelcorey.github.io/tags/joon-bong-ho/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/joon-bong-ho/</guid>
+      <guid>https://runkelcorey.github.io/tags/joon-bong-ho/</guid>
       <description></description>
     </item>
     
     <item>
       <title>parasite</title>
-      <link>/tags/parasite/</link>
+      <link>https://runkelcorey.github.io/tags/parasite/</link>
       <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/parasite/</guid>
+      <guid>https://runkelcorey.github.io/tags/parasite/</guid>
       <description></description>
     </item>
     
     <item>
       <title>marathon</title>
-      <link>/tags/marathon/</link>
+      <link>https://runkelcorey.github.io/tags/marathon/</link>
       <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/marathon/</guid>
+      <guid>https://runkelcorey.github.io/tags/marathon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cinematography</title>
-      <link>/tags/cinematography/</link>
+      <link>https://runkelcorey.github.io/tags/cinematography/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/cinematography/</guid>
+      <guid>https://runkelcorey.github.io/tags/cinematography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hitchcock</title>
-      <link>/tags/hitchcock/</link>
+      <link>https://runkelcorey.github.io/tags/hitchcock/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/hitchcock/</guid>
+      <guid>https://runkelcorey.github.io/tags/hitchcock/</guid>
       <description></description>
     </item>
     
     <item>
       <title>space</title>
-      <link>/tags/space/</link>
+      <link>https://runkelcorey.github.io/tags/space/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/space/</guid>
+      <guid>https://runkelcorey.github.io/tags/space/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vertigo</title>
-      <link>/tags/vertigo/</link>
+      <link>https://runkelcorey.github.io/tags/vertigo/</link>
       <pubDate>Tue, 27 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/vertigo/</guid>
+      <guid>https://runkelcorey.github.io/tags/vertigo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>APIs</title>
-      <link>/tags/apis/</link>
+      <link>https://runkelcorey.github.io/tags/apis/</link>
       <pubDate>Tue, 06 Aug 2019 21:42:21 -0400</pubDate>
-      <guid>/tags/apis/</guid>
+      <guid>https://runkelcorey.github.io/tags/apis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>https://runkelcorey.github.io/tags/r/</link>
       <pubDate>Tue, 06 Aug 2019 21:42:21 -0400</pubDate>
-      <guid>/tags/r/</guid>
+      <guid>https://runkelcorey.github.io/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>open data</title>
-      <link>/tags/open-data/</link>
+      <link>https://runkelcorey.github.io/tags/open-data/</link>
       <pubDate>Tue, 06 Aug 2019 21:42:21 -0400</pubDate>
-      <guid>/tags/open-data/</guid>
+      <guid>https://runkelcorey.github.io/tags/open-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>API</title>
-      <link>/tags/api/</link>
+      <link>https://runkelcorey.github.io/tags/api/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/api/</guid>
+      <guid>https://runkelcorey.github.io/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>government data</title>
-      <link>/tags/government-data/</link>
+      <link>https://runkelcorey.github.io/tags/government-data/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/government-data/</guid>
+      <guid>https://runkelcorey.github.io/tags/government-data/</guid>
       <description></description>
     </item>
     
