@@ -56,14 +56,5 @@ Working with something that will be used in the future by end-users made me thin
 </description>
     </item>
     
-    <item>
-      <title>Open Data Package</title>
-      <link>https://runkelcorey.github.io/project/open-data-package/</link>
-      <pubDate>Tue, 06 Aug 2019 21:42:21 -0400</pubDate>
-      <guid>https://runkelcorey.github.io/project/open-data-package/</guid>
-      <description>&lt;p&gt;As detailed &lt;a href=&#34;post/federal-register-api&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, I have found myself needing to write an API for the &lt;a href=&#34;https://www.federalregister.gov/&#34; target=&#34;_blank&#34;&gt;Federal Register&lt;/a&gt;, an otherwise wonderful site. As I began writing, I found another gap&amp;mdash;Esri webmaps&amp;mdash;and so forth. This, I &lt;a href=&#34;https://github.com/jtleek/rpackages&#34; target=&#34;_blank&#34;&gt;hear&lt;/a&gt;, is how packages come to be. So it is with mine.&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>

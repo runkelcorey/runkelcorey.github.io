@@ -5,7 +5,7 @@
     <link>https://runkelcorey.github.io/project/</link>
       <atom:link href="https://runkelcorey.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Tue, 06 Aug 2019 21:42:21 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>Projects</title>
@@ -13,11 +13,72 @@
     </image>
     
     <item>
-      <title>Open Data Package</title>
-      <link>https://runkelcorey.github.io/project/open-data-package/</link>
-      <pubDate>Tue, 06 Aug 2019 21:42:21 -0400</pubDate>
-      <guid>https://runkelcorey.github.io/project/open-data-package/</guid>
-      <description>&lt;p&gt;As detailed &lt;a href=&#34;post/federal-register-api&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, I have found myself needing to write an API for the &lt;a href=&#34;https://www.federalregister.gov/&#34; target=&#34;_blank&#34;&gt;Federal Register&lt;/a&gt;, an otherwise wonderful site. As I began writing, I found another gap&amp;mdash;Esri webmaps&amp;mdash;and so forth. This, I &lt;a href=&#34;https://github.com/jtleek/rpackages&#34; target=&#34;_blank&#34;&gt;hear&lt;/a&gt;, is how packages come to be. So it is with mine.&lt;/p&gt;
+      <title>US Housing</title>
+      <link>https://runkelcorey.github.io/project/housing/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/project/housing/</guid>
+      <description>&lt;p&gt;This project is majorly on hold.&lt;/p&gt;
+
+&lt;p&gt;I love the idea that all these super materialist forces influence how we act and think, and the home is just about the most materialist symbol.
+In this country, homes take on new financial dimensions as bastions of wealth, new aspirational dimensions as the base of American Dreams, and&amp;mdash;with covid&amp;mdash;make up the lifeworlds of a good chunk of people.
+Housing politics occupied the last year of my time UVA, between the Urban Planning and Politics departments, with &lt;a href=&#34;../../publication/thesis/actors-motive.html&#34;&gt;my undergrad thesis&lt;/a&gt; capping the year.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>YPFS citation engine</title>
+      <link>https://runkelcorey.github.io/project/ypfs-csl/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/project/ypfs-csl/</guid>
+      <description>&lt;p&gt;This bit of code takes in Zotero entries and outputs formatted citations.
+I wrote about it &lt;a href=&#34;../../2021/03/24/ypfs-citation-style-language/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>YPFS ggplot theme</title>
+      <link>https://runkelcorey.github.io/project/ypfs-theme/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/project/ypfs-theme/</guid>
+      <description>&lt;p&gt;This project is a bit on hold as I strike the right balance between accessibility and flexibility.
+It makes use of &lt;a href=&#34;https://github.com/yixuan/showtext&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;showtext&lt;/code&gt;&lt;/a&gt;, which allows for the installation of custom fonts, but doesn&amp;rsquo;t handle extremely high and low quality as well as &lt;a href=&#34;https://ggplot2.tidyverse.org/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;ggplot2&lt;/code&gt;&lt;/a&gt; does.&lt;/p&gt;
+
+&lt;p&gt;When we at YPFS spent our whole days blogging about the pandemic&amp;rsquo;s toll on economies worldwide, we put out a lot of graphs, and they all looked different.
+This isn&amp;rsquo;t the biggest deal, but consistent style goes a long way to weave different research threads together.
+And with a &lt;a href=&#34;https://yaleidentity.yale.edu/web&#34; target=&#34;_blank&#34;&gt;typekit&lt;/a&gt; and &lt;a href=&#34;https://toolness.github.io/accessible-color-matrix/?n=white&amp;amp;n=light&amp;amp;n=emphasis&amp;amp;n=Yale%20blue&amp;amp;n=black&amp;amp;v=F9F9F9&amp;amp;v=63AAFF&amp;amp;v=286DC0&amp;amp;v=00356B&amp;amp;v=222222&#34; target=&#34;_blank&#34;&gt;palette&lt;/a&gt; as beautiful as Yale&amp;rsquo;s, using Excel and Calibri is something of a shame.&lt;/p&gt;
+
+&lt;p&gt;This repository is an evolving project to standardize the production of figures within R, an open-source statistical package. Researchers who publish with[in] the Yale School of Management will recognize its distinct use of Helvetica Neue, while affiliated with the University at large will recognize that typekit and palette of blues. However, conforming to the school&amp;rsquo;s style can be a time-consuming process, likely to be ignored in favor of other work. A standard theme can plug the gap caused by tedious formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>YPFS web scraper</title>
+      <link>https://runkelcorey.github.io/project/ypfs-translator/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/project/ypfs-translator/</guid>
+      <description>&lt;p&gt;RAs would told me how much time it takes to enter metadata into both Zotero and &lt;a href=&#34;ypfs.som.yale.edu&#34; target=&#34;_blank&#34;&gt;our own archive&lt;/a&gt;.
+Because our Zotero library captures more information than our archive, the ideal solution was to export Zotero information to our Drupal content management system.
+However, YPFS gets no love from Yale&amp;rsquo;s business-school IT department.
+We ultimately find a lot of workarounds to aid our work, and it was no different here.&lt;/p&gt;
+
+&lt;p&gt;Another way to cut down on time spent entering metadata was the reverse: instead of exporting to our archive, we could export &lt;em&gt;from&lt;/em&gt; our archive.
+This is where Zotero comes in.
+It accepts a number of different formats for bibliographic information stored on websites.
+Unfortunately, our website exposes metadata in none of these &lt;a href=&#34;https://www.zotero.org/support/dev/exposing_metadata&#34; target=&#34;_blank&#34;&gt;standard&lt;/a&gt; formats.&lt;/p&gt;
+
+&lt;p&gt;Again, we needed to slightly modify our idea of how to transfer data between Zotero and our archive.
+In this case, we &lt;em&gt;imported&lt;/em&gt; from our archive.
+Zotero &lt;a href=&#34;https://github.com/zotero/translators/&#34; target=&#34;_blank&#34;&gt;allows&lt;/a&gt; people to volunteer translators that let Zotero read metadata on specific sites.&lt;/p&gt;
+
+&lt;p&gt;I learned the basics of JavaScript to write &lt;a href=&#34;https://github.com/zotero/translators/pull/2358&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt; bit of code.
+This totally felt like learning a new language.
+My previous experience with programming had really been limited to data science.
+I was accustomed to static products like a plot or table.
+Here, I contended with interactivity&amp;mdash;in which a command is triggered by an end-user action&amp;mdash;and inputs not yet defined (a/k/a new webpages created in the future).&lt;/p&gt;
+
+&lt;p&gt;The result is a plug-in that, once accepted by Zotero&amp;rsquo;s administrators, will allow all users of Zotero to import directly from our archive.
+Significantly, it is the only website-specific translator I&amp;rsquo;ve seen that accepts more than just webpage snapshots or PDFs.
+This translator will accept audio, video, Word documents, images, you name it.&lt;/p&gt;
 </description>
     </item>
     
