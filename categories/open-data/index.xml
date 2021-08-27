@@ -5,12 +5,35 @@
     <link>https://runkelcorey.github.io/categories/open-data/</link>
       <atom:link href="https://runkelcorey.github.io/categories/open-data/index.xml" rel="self" type="application/rss+xml" />
     <description>open data</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>open data</title>
       <link>https://runkelcorey.github.io/categories/open-data/</link>
     </image>
+    
+    <item>
+      <title>Federal Register API</title>
+      <link>https://runkelcorey.github.io/project/federal-register/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/project/federal-register/</guid>
+      <description>&lt;p&gt;The Federal Register is the official gazette of the US Government.
+It maintains a spotless website and API, but there is no &lt;a href=&#34;https://github.com/rOpenGov/federalregister/issues/3&#34; target=&#34;_blank&#34;&gt;active&lt;/a&gt; API client for R.
+This is a loss because the only active client is for Ruby, which is not exactly a haven for data scientists and citizen-journalist types.
+I took this over because I thought that a bit of the old panopticon could help me finish this project.
+In turn, this project is important for me to do because it was my first complete package and my first fully featured API.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>YPFS citation engine</title>
+      <link>https://runkelcorey.github.io/project/ypfs-csl/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/project/ypfs-csl/</guid>
+      <description>&lt;p&gt;This bit of code takes in Zotero entries and outputs formatted citations.
+I wrote about it &lt;a href=&#34;../../2021/03/24/ypfs-citation-style-language/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>YPFS Citation Style Language</title>
@@ -70,16 +93,6 @@ Housing politics occupied the last year of my time UVA, between the Urban Planni
     </item>
     
     <item>
-      <title>YPFS citation engine</title>
-      <link>https://runkelcorey.github.io/project/ypfs-csl/</link>
-      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://runkelcorey.github.io/project/ypfs-csl/</guid>
-      <description>&lt;p&gt;This bit of code takes in Zotero entries and outputs formatted citations.
-I wrote about it &lt;a href=&#34;../../2021/03/24/ypfs-citation-style-language/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>YPFS ggplot theme</title>
       <link>https://runkelcorey.github.io/project/ypfs-theme/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
@@ -100,7 +113,9 @@ And with a &lt;a href=&#34;https://yaleidentity.yale.edu/web&#34; target=&#34;_b
       <link>https://runkelcorey.github.io/project/ypfs-translator/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://runkelcorey.github.io/project/ypfs-translator/</guid>
-      <description>&lt;p&gt;RAs would told me how much time it takes to enter metadata into both Zotero and &lt;a href=&#34;ypfs.som.yale.edu&#34; target=&#34;_blank&#34;&gt;our own archive&lt;/a&gt;.
+      <description>&lt;p&gt;&lt;em&gt;Edit: Zotero&amp;rsquo;s administrators accepted &lt;a href=&#34;https://github.com/zotero/translators/pull/2358&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt; and my colleagues regularly use it now!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;RAs would told me how much time it takes to enter metadata into both Zotero and &lt;a href=&#34;ypfs.som.yale.edu&#34; target=&#34;_blank&#34;&gt;our own archive&lt;/a&gt;.
 Because our Zotero library captures more information than our archive, the ideal solution was to export Zotero information to our Drupal content management system.
 However, YPFS gets no love from Yale&amp;rsquo;s business-school IT department.
 We ultimately find a lot of workarounds to aid our work, and it was no different here.&lt;/p&gt;
@@ -114,7 +129,7 @@ Unfortunately, our website exposes metadata in none of these &lt;a href=&#34;htt
 In this case, we &lt;em&gt;imported&lt;/em&gt; from our archive.
 Zotero &lt;a href=&#34;https://github.com/zotero/translators/&#34; target=&#34;_blank&#34;&gt;allows&lt;/a&gt; people to volunteer translators that let Zotero read metadata on specific sites.&lt;/p&gt;
 
-&lt;p&gt;I learned the basics of JavaScript to write &lt;a href=&#34;https://github.com/zotero/translators/pull/2358&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt; bit of code.
+&lt;p&gt;I learned the basics of JavaScript to write &lt;a href=&#34;https://github.com/zotero/translators/blob/master/YPSF.js&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt; bit of code.
 This totally felt like learning a new language.
 My previous experience with programming had really been limited to data science.
 I was accustomed to static products like a plot or table.

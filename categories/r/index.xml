@@ -5,12 +5,25 @@
     <link>https://runkelcorey.github.io/categories/r/</link>
       <atom:link href="https://runkelcorey.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>R</title>
       <link>https://runkelcorey.github.io/categories/r/</link>
     </image>
+    
+    <item>
+      <title>Federal Register API</title>
+      <link>https://runkelcorey.github.io/project/federal-register/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/project/federal-register/</guid>
+      <description>&lt;p&gt;The Federal Register is the official gazette of the US Government.
+It maintains a spotless website and API, but there is no &lt;a href=&#34;https://github.com/rOpenGov/federalregister/issues/3&#34; target=&#34;_blank&#34;&gt;active&lt;/a&gt; API client for R.
+This is a loss because the only active client is for Ruby, which is not exactly a haven for data scientists and citizen-journalist types.
+I took this over because I thought that a bit of the old panopticon could help me finish this project.
+In turn, this project is important for me to do because it was my first complete package and my first fully featured API.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>US Housing</title>
