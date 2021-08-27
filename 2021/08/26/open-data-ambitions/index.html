@@ -28,10 +28,11 @@
   
     
   
-  <meta name="description" content="The Federal Register is the official gazette of the US Government. It maintains a spotless website and API, but there is no active API client for R. This is a loss because the only active client is for Ruby, which is not exactly a haven for data scientists and citizen-journalist types. I took this over because I thought that a bit of the old panopticon could help me finish this project.">
+  <meta name="description" content="I&rsquo;m starting another Federal Register API client for R. The reason is the same: the old federalregister package does not use the current RESTful API. Clearly, my last attempt failed to fix that issue. It was my first experience with APIs and I didn&rsquo;t think to check if anyone had written any kind of best practices for developing API clients in R. Naturally, Hadley Wickham had.
+So this time, I&rsquo;m taking a swing at a tidy httr client.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://runkelcorey.github.io/project/federal-register/">
+  <link rel="alternate" hreflang="en-us" href="https://runkelcorey.github.io/2021/08/26/open-data-ambitions/">
 
   
 
@@ -96,7 +97,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://runkelcorey.github.io/project/federal-register/">
+  <link rel="canonical" href="https://runkelcorey.github.io/2021/08/26/open-data-ambitions/">
 
   
   
@@ -112,9 +113,10 @@
   <meta property="twitter:creator" content="@platopasta">
   
   <meta property="og:site_name" content="Corey Runkel">
-  <meta property="og:url" content="https://runkelcorey.github.io/project/federal-register/">
-  <meta property="og:title" content="Federal Register API | Corey Runkel">
-  <meta property="og:description" content="The Federal Register is the official gazette of the US Government. It maintains a spotless website and API, but there is no active API client for R. This is a loss because the only active client is for Ruby, which is not exactly a haven for data scientists and citizen-journalist types. I took this over because I thought that a bit of the old panopticon could help me finish this project."><meta property="og:image" content="https://runkelcorey.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://runkelcorey.github.io/2021/08/26/open-data-ambitions/">
+  <meta property="og:title" content="Open Data Ambitions | Corey Runkel">
+  <meta property="og:description" content="I&rsquo;m starting another Federal Register API client for R. The reason is the same: the old federalregister package does not use the current RESTful API. Clearly, my last attempt failed to fix that issue. It was my first experience with APIs and I didn&rsquo;t think to check if anyone had written any kind of best practices for developing API clients in R. Naturally, Hadley Wickham had.
+So this time, I&rsquo;m taking a swing at a tidy httr client."><meta property="og:image" content="https://runkelcorey.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://runkelcorey.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -132,7 +134,7 @@
 
 
 
-  <title>Federal Register API | Corey Runkel</title>
+  <title>Open Data Ambitions | Corey Runkel</title>
 
 </head>
 
@@ -335,7 +337,7 @@
 </nav>
 
 
-  <article class="article article-project" itemscope itemtype="http://schema.org/Article">
+  <article class="article" itemscope itemtype="http://schema.org/Article">
 
   
 
@@ -356,7 +358,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Federal Register API</h1>
+  <h1 itemprop="name">Open Data Ambitions</h1>
 
   
 
@@ -388,6 +390,11 @@
   
 
   
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
 
   
   
@@ -397,7 +404,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i><a href="/categories/open-data/">open data</a>, <a href="/categories/r/">R</a></span>
+    <i class="fas fa-folder mr-1"></i><a href="/categories/open-data/">open data</a>, <a href="/categories/r/">R</a>, <a href="/categories/ypfs/">YPFS</a></span>
   
 
   
@@ -413,7 +420,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://runkelcorey.github.io/project/federal-register/&amp;text=Federal%20Register%20API" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://runkelcorey.github.io/2021/08/26/open-data-ambitions/&amp;text=Open%20Data%20Ambitions" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -426,7 +433,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://runkelcorey.github.io/project/federal-register/&amp;t=Federal%20Register%20API" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://runkelcorey.github.io/2021/08/26/open-data-ambitions/&amp;t=Open%20Data%20Ambitions" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -439,7 +446,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Federal%20Register%20API&amp;body=https://runkelcorey.github.io/project/federal-register/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Open%20Data%20Ambitions&amp;body=https://runkelcorey.github.io/2021/08/26/open-data-ambitions/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -452,7 +459,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://runkelcorey.github.io/project/federal-register/&amp;title=Federal%20Register%20API" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://runkelcorey.github.io/2021/08/26/open-data-ambitions/&amp;title=Open%20Data%20Ambitions" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -465,7 +472,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Federal%20Register%20API%20https://runkelcorey.github.io/project/federal-register/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Open%20Data%20Ambitions%20https://runkelcorey.github.io/2021/08/26/open-data-ambitions/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -478,7 +485,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://runkelcorey.github.io/project/federal-register/&amp;title=Federal%20Register%20API" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://runkelcorey.github.io/2021/08/26/open-data-ambitions/&amp;title=Open%20Data%20Ambitions" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -491,7 +498,7 @@
       
       
       <li>
-        <a href="https://pinterest.com/pin/create/link/?url=https://runkelcorey.github.io/project/federal-register/&amp;description=Federal%20Register%20API" target="_blank" rel="noopener" class="share-btn-pinterest">
+        <a href="https://pinterest.com/pin/create/link/?url=https://runkelcorey.github.io/2021/08/26/open-data-ambitions/&amp;description=Open%20Data%20Ambitions" target="_blank" rel="noopener" class="share-btn-pinterest">
           <i class="fab fa-pinterest"></i>
         </a>
       </li>
@@ -518,6 +525,43 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -527,11 +571,36 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p>The Federal Register is the official gazette of the US Government.
-It maintains a spotless website and API, but there is no <a href="https://github.com/rOpenGov/federalregister/issues/3" target="_blank">active</a> API client for R.
-This is a loss because the only active client is for Ruby, which is not exactly a haven for data scientists and citizen-journalist types.
-I took this over because I thought that a bit of the old panopticon could help me finish this project.
-In turn, this project is important for me to do because it was my first complete package and my first fully featured API.</p>
+      <p>I&rsquo;m starting <a href="2019/08/03/federal-register-api/" target="_blank">another</a> Federal Register API client for R.
+The reason is the same: the old <a href="https://github.com/rOpenGov/federalregister/" target="_blank"><code>federalregister</code></a> package does not use the current RESTful API.
+Clearly, my last attempt failed to fix that issue.
+It was my first experience with APIs and I didn&rsquo;t think to check if anyone had written any kind of best practices for developing API clients in R.
+Naturally, Hadley Wickham <a href="https://cran.r-project.org/web/packages/httr/vignettes/api-packages.html" target="_blank">had</a>.</p>
+
+<p>So this time, I&rsquo;m taking a swing at a tidy <code>httr</code> client.
+And it won&rsquo;t be my last.
+I&rsquo;m joining the <code>rOpenGov</code> organization to give myself some people I don&rsquo;t want to let down.
+First up is the Federal Register API, but I have ambitions for two more:</p>
+
+<ul>
+<li><a href="https://www.bankofcanada.ca/valet/docs" target="_blank">Valet</a>, the Bank of Canada&rsquo;s API</li>
+<li><a href="https://ecfr.federalregister.gov/developers/documentation/api/v1" target="_blank">eCFR</a>, which records US statutes<sup class="footnote-ref" id="fnref:The-Federal-Regi"><a href="#fn:The-Federal-Regi">1</a></sup></li>
+</ul>
+
+<p>These are two big gaps in R client coverage.
+They&rsquo;re especially gaping for researchers in my current field, financial crises.
+Part of the YPFS&rsquo; goal is to make nitty-gritty legal and government docs more accessible, and it seems to me that should extend to data.
+I&rsquo;ve already published cleaned data on the Bank of Greece&rsquo;s balance sheet, and am working on joining the US&rsquo; Term Auction Facility operations into something beautiful.
+These have been scraping jobs&mdash;one-offs, even if they are rather important datasets.
+A prior step is to make what&rsquo;s already available accessible.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:The-Federal-Regi">The Federal Register is to eCFR as velocity is to position <a class="footnote-return" href="#fnref:The-Federal-Regi"><sup>^</sup></a></li>
+</ol>
+</div>
 
     </div>
 
@@ -539,6 +608,19 @@ In turn, this project is important for me to do because it was my first complete
 
 
     
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/api/">API</a>
+  
+  <a class="badge badge-light" href="/tags/government-data/">government data</a>
+  
+</div>
+
+
+
+    
+      
 
 
 
@@ -673,29 +755,27 @@ In turn, this project is important for me to do because it was my first complete
 
 
 
+      
+      
+      <div class="article-widget">
+        <div class="hr-light"></div>
+        <h3>Related</h3>
+        <ul>
+          
+          <li><a href="/2019/08/03/federal-register-api/">Federal Register API</a></li>
+          
+        </ul>
+      </div>
+      
+    
+
+    
 
     
 
-
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-
-    
-    
-    
 
   </div>
 </article>
-
-
 
       
 

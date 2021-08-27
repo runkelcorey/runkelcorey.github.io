@@ -5,12 +5,50 @@
     <link>https://runkelcorey.github.io/tags/api/</link>
       <atom:link href="https://runkelcorey.github.io/tags/api/index.xml" rel="self" type="application/rss+xml" />
     <description>API</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Sat, 03 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© C.N. Runkel 2021</copyright><lastBuildDate>Thu, 26 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runkelcorey.github.io/img/icon-192.png</url>
       <title>API</title>
       <link>https://runkelcorey.github.io/tags/api/</link>
     </image>
+    
+    <item>
+      <title>Open Data Ambitions</title>
+      <link>https://runkelcorey.github.io/2021/08/26/open-data-ambitions/</link>
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://runkelcorey.github.io/2021/08/26/open-data-ambitions/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m starting &lt;a href=&#34;2019/08/03/federal-register-api/&#34; target=&#34;_blank&#34;&gt;another&lt;/a&gt; Federal Register API client for R.
+The reason is the same: the old &lt;a href=&#34;https://github.com/rOpenGov/federalregister/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;federalregister&lt;/code&gt;&lt;/a&gt; package does not use the current RESTful API.
+Clearly, my last attempt failed to fix that issue.
+It was my first experience with APIs and I didn&amp;rsquo;t think to check if anyone had written any kind of best practices for developing API clients in R.
+Naturally, Hadley Wickham &lt;a href=&#34;https://cran.r-project.org/web/packages/httr/vignettes/api-packages.html&#34; target=&#34;_blank&#34;&gt;had&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So this time, I&amp;rsquo;m taking a swing at a tidy &lt;code&gt;httr&lt;/code&gt; client.
+And it won&amp;rsquo;t be my last.
+I&amp;rsquo;m joining the &lt;code&gt;rOpenGov&lt;/code&gt; organization to give myself some people I don&amp;rsquo;t want to let down.
+First up is the Federal Register API, but I have ambitions for two more:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.bankofcanada.ca/valet/docs&#34; target=&#34;_blank&#34;&gt;Valet&lt;/a&gt;, the Bank of Canada&amp;rsquo;s API&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ecfr.federalregister.gov/developers/documentation/api/v1&#34; target=&#34;_blank&#34;&gt;eCFR&lt;/a&gt;, which records US statutes&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:The-Federal-Regi&#34;&gt;&lt;a href=&#34;#fn:The-Federal-Regi&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are two big gaps in R client coverage.
+They&amp;rsquo;re especially gaping for researchers in my current field, financial crises.
+Part of the YPFS&amp;rsquo; goal is to make nitty-gritty legal and government docs more accessible, and it seems to me that should extend to data.
+I&amp;rsquo;ve already published cleaned data on the Bank of Greece&amp;rsquo;s balance sheet, and am working on joining the US&amp;rsquo; Term Auction Facility operations into something beautiful.
+These have been scraping jobs&amp;mdash;one-offs, even if they are rather important datasets.
+A prior step is to make what&amp;rsquo;s already available accessible.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:The-Federal-Regi&#34;&gt;The Federal Register is to eCFR as velocity is to position &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:The-Federal-Regi&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Federal Register API</title>

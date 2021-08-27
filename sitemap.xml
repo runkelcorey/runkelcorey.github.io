@@ -3,59 +3,76 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://runkelcorey.github.io/tags/api/</loc>
+    <lastmod>2021-08-26T21:57:10-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://runkelcorey.github.io/categories/</loc>
-    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-26T21:57:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://runkelcorey.github.io/</loc>
-    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-26T21:57:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://runkelcorey.github.io/project/federal-register/</loc>
-    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-26T21:57:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/2021/08/26/open-data-ambitions/</loc>
+    <lastmod>2021-08-26T21:57:10-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://runkelcorey.github.io/project/</loc>
-    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-26T21:57:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://runkelcorey.github.io/categories/r/</loc>
-    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://runkelcorey.github.io/categories/open-data/</loc>
-    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://runkelcorey.github.io/categories/ypfs/</loc>
-    <lastmod>2021-03-25T12:58:30-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://runkelcorey.github.io/project/ypfs-csl/</loc>
-    <lastmod>2021-03-25T12:58:30-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://runkelcorey.github.io/tags/csl/</loc>
-    <lastmod>2021-03-24T22:20:38-04:00</lastmod>
+    <lastmod>2021-08-26T21:57:10-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://runkelcorey.github.io/tags/</loc>
+    <lastmod>2021-08-26T21:57:10-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/categories/ypfs/</loc>
+    <lastmod>2021-08-26T21:57:10-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/tags/government-data/</loc>
+    <lastmod>2021-08-26T21:57:10-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/categories/open-data/</loc>
+    <lastmod>2021-08-26T21:57:10-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/project/ypfs-csl/</loc>
+    <lastmod>2021-08-26T21:57:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://runkelcorey.github.io/tags/csl/</loc>
     <lastmod>2021-03-24T22:20:38-04:00</lastmod>
     <priority>0</priority>
   </url>
@@ -154,14 +171,14 @@
   </url>
   
   <url>
-    <loc>https://runkelcorey.github.io/categories/political-economy/</loc>
-    <lastmod>2021-03-25T12:58:30-04:00</lastmod>
+    <loc>https://runkelcorey.github.io/tags/political-economy/</loc>
+    <lastmod>2021-03-24T22:20:38-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://runkelcorey.github.io/tags/political-economy/</loc>
-    <lastmod>2021-03-24T22:20:38-04:00</lastmod>
+    <loc>https://runkelcorey.github.io/categories/political-economy/</loc>
+    <lastmod>2021-03-25T12:58:30-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -215,7 +232,7 @@
   
   <url>
     <loc>https://runkelcorey.github.io/project/ypfs-translator/</loc>
-    <lastmod>2021-03-25T12:58:30-04:00</lastmod>
+    <lastmod>2021-08-26T21:57:10-04:00</lastmod>
   </url>
   
   <url>
@@ -350,13 +367,13 @@
   </url>
   
   <url>
-    <loc>https://runkelcorey.github.io/categories/fitness/</loc>
+    <loc>https://runkelcorey.github.io/tags/fitness/</loc>
     <lastmod>2020-01-21T00:19:31-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://runkelcorey.github.io/tags/fitness/</loc>
+    <loc>https://runkelcorey.github.io/categories/fitness/</loc>
     <lastmod>2020-01-21T00:19:31-05:00</lastmod>
     <priority>0</priority>
   </url>
@@ -436,20 +453,8 @@
   </url>
   
   <url>
-    <loc>https://runkelcorey.github.io/tags/api/</loc>
-    <lastmod>2019-08-07T19:16:31-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://runkelcorey.github.io/2019/08/03/federal-register-api/</loc>
     <lastmod>2019-08-07T19:16:31-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://runkelcorey.github.io/tags/government-data/</loc>
-    <lastmod>2019-08-07T19:16:31-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
