@@ -2,6 +2,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2024-04-24-recursive-algorithms-with-pyspark-2/index.html",
+      "/posts/2024-04-21-recursive-algorithms-with-pyspark-1/index.html",
       "/posts/2022-11-18-remote-work-config/index.html",
       "/posts/2022-04-21-farmington-bike-century/index.html",
       "/posts/2022-04-09-tip-the-valet/index.html",
