@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.38">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
 </style>
 
 
@@ -42,7 +47,13 @@ ul.task-list{list-style: none;}
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -51,8 +62,10 @@ ul.task-list{list-style: none;}
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -85,7 +98,35 @@ ul.task-list{list-style: none;}
   })
   </script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -93,32 +134,37 @@ ul.task-list{list-style: none;}
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Corey</span>
-  </a>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">About</a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/runkelcorey"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/runkelcorey"> <i class="bi bi-github" role="img">
 </i> 
- </a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/platopasta"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/platopasta"> <i class="bi bi-twitter" role="img">
 </i> 
- </a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -128,7 +174,7 @@ ul.task-list{list-style: none;}
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(22)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YPFS">YPFS <span class="quarto-category-count">(4)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(11)</span></div><div class="category" data-category="bucket list">bucket list <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code bits">code bits <span class="quarto-category-count">(2)</span></div><div class="category" data-category="culture">culture <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cycling">cycling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data">data <span class="quarto-category-count">(3)</span></div><div class="category" data-category="film">film <span class="quarto-category-count">(6)</span></div><div class="category" data-category="fitness">fitness <span class="quarto-category-count">(3)</span></div><div class="category" data-category="life">life <span class="quarto-category-count">(1)</span></div><div class="category" data-category="new haven">new haven <span class="quarto-category-count">(1)</span></div><div class="category" data-category="open data">open data <span class="quarto-category-count">(2)</span></div><div class="category" data-category="political economy">political economy <span class="quarto-category-count">(5)</span></div><div class="category" data-category="predictions">predictions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="remote work">remote work <span class="quarto-category-count">(1)</span></div><div class="category" data-category="spark">spark <span class="quarto-category-count">(2)</span></div><div class="category" data-category="tech">tech <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(23)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YPFS">YPFS <span class="quarto-category-count">(4)</span></div><div class="category" data-category="analysis">analysis <span class="quarto-category-count">(11)</span></div><div class="category" data-category="bucket list">bucket list <span class="quarto-category-count">(1)</span></div><div class="category" data-category="code bits">code bits <span class="quarto-category-count">(2)</span></div><div class="category" data-category="culture">culture <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cycling">cycling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data">data <span class="quarto-category-count">(3)</span></div><div class="category" data-category="film">film <span class="quarto-category-count">(7)</span></div><div class="category" data-category="fitness">fitness <span class="quarto-category-count">(3)</span></div><div class="category" data-category="life">life <span class="quarto-category-count">(1)</span></div><div class="category" data-category="lists">lists <span class="quarto-category-count">(1)</span></div><div class="category" data-category="new haven">new haven <span class="quarto-category-count">(1)</span></div><div class="category" data-category="open data">open data <span class="quarto-category-count">(2)</span></div><div class="category" data-category="political economy">political economy <span class="quarto-category-count">(5)</span></div><div class="category" data-category="predictions">predictions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="remote work">remote work <span class="quarto-category-count">(1)</span></div><div class="category" data-category="spark">spark <span class="quarto-category-count">(2)</span></div><div class="category" data-category="tech">tech <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -142,9 +188,11 @@ ul.task-list{list-style: none;}
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
+
 
 </header>
 
@@ -152,38 +200,36 @@ ul.task-list{list-style: none;}
 
 
 
+
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="data" data-listing-date-sort="1714190400000" data-listing-file-modified-sort="1714697249176" data-listing-reading-time-sort="3.17">
+<div class="quarto-post image-right" data-index="0" data-categories="film,lists" data-listing-date-sort="1714190400000" data-listing-file-modified-sort="1716852121574" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="246">
 <div class="thumbnail">
-<a href="./posts/2024-04-27-flow-state-in-running-and-coding/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2024-04-27-flow-state-in-running-and-coding/index.html"></a></p>
+<p><a href="./posts/2024-05-27-movie-trends-someone-should-write-about/index.html" class="no-external"></a></p><a href="./posts/2024-05-27-movie-trends-someone-should-write-about/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2024-05-27-movie-trends-someone-should-write-about/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2024-04-27-flow-state-in-running-and-coding/index.html">
 <h3 class="no-anchor listing-title">
-The flow state in running and coding
+<a href="./posts/2024-05-27-movie-trends-someone-should-write-about/index.html" class="no-external">2 movie trends someone should write about</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2024-05-27-movie-trends-someone-should-write-about/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('data'); return false;">
-data
+<div class="listing-category" onclick="window.quartoListingCategory('film'); return false;">
+film
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('lists'); return false;">
+lists
 </div>
 </div>
-<a href="./posts/2024-04-27-flow-state-in-running-and-coding/index.html">
 <div class="listing-description">
-Trail running and code writing share a concept of the <strong>flow state</strong>. Many other crafts share this concept, but I both run and code so I’ll keep the focus here for today. The flow state is a level of immersion in the craft that blocks out the rest of the world, leaving the crafter focused on the craft. It’s dramatized in ads for new running shoes and movies like <em>The Social Network</em>, where montages show programmers glued to their screens and their keys, resulting in prodigious work output.
+<a href="./posts/2024-05-27-movie-trends-someone-should-write-about/index.html" class="no-external">Watching movies made since the 1930s and reading tons about 20th century American history have let me notice some trends that I don’t fully understand. I’d like to write…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2024-04-27-flow-state-in-running-and-coding/index.html">
+<a href="./posts/2024-05-27-movie-trends-someone-should-write-about/index.html" class="no-external">
 <div class="listing-date">
 Apr 27, 2024
 </div>
@@ -193,23 +239,52 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="data,spark,python" data-listing-date-sort="1713672000000" data-listing-file-modified-sort="1713963977873" data-listing-reading-time-sort="5.19">
+<div class="quarto-post image-right" data-index="1" data-categories="data" data-listing-date-sort="1714190400000" data-listing-file-modified-sort="1714697287566" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="634">
 <div class="thumbnail">
-<a href="./posts/2024-04-24-recursive-algorithms-with-pyspark-2/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2024-04-24-recursive-algorithms-with-pyspark-2/index.html"></a></p>
+<p><a href="./posts/2024-04-27-flow-state-in-running-and-coding/index.html" class="no-external"></a></p><a href="./posts/2024-04-27-flow-state-in-running-and-coding/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2024-04-27-flow-state-in-running-and-coding/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2024-04-24-recursive-algorithms-with-pyspark-2/index.html">
 <h3 class="no-anchor listing-title">
-A PySpark-native way to do recursion
+<a href="./posts/2024-04-27-flow-state-in-running-and-coding/index.html" class="no-external">The flow state in running and coding</a>
 </h3>
 <div class="listing-subtitle">
-Part 2: Solutions
+<a href="./posts/2024-04-27-flow-state-in-running-and-coding/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data'); return false;">
+data
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2024-04-27-flow-state-in-running-and-coding/index.html" class="no-external">Trail running and code writing share a concept of the <strong>flow state</strong>. Many other crafts share this concept, but I both run and code so I’ll keep the focus here for today. The…<em></em></a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2024-04-27-flow-state-in-running-and-coding/index.html" class="no-external">
+<div class="listing-date">
+Apr 27, 2024
+</div>
+<div class="listing-author">
+corey
 </div>
 </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="data,spark,python" data-listing-date-sort="1713672000000" data-listing-file-modified-sort="1713963977873" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1038">
+<div class="thumbnail">
+<p><a href="./posts/2024-04-24-recursive-algorithms-with-pyspark-2/index.html" class="no-external"></a></p><a href="./posts/2024-04-24-recursive-algorithms-with-pyspark-2/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2024-04-24-recursive-algorithms-with-pyspark-2/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2024-04-24-recursive-algorithms-with-pyspark-2/index.html" class="no-external">A PySpark-native way to do recursion</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2024-04-24-recursive-algorithms-with-pyspark-2/index.html" class="no-external">Part 2: Solutions</a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('data'); return false;">
 data
@@ -221,14 +296,12 @@ spark
 python
 </div>
 </div>
-<a href="./posts/2024-04-24-recursive-algorithms-with-pyspark-2/index.html">
 <div class="listing-description">
-In my last post, I described an example of recursive algorithms, the Fibonacci sequence, and showed that it can’t be solved with classic SQL tools like window functions. In this post, I’ll explore possible solutions and demonstrate my preferred, PySpark-native approach.
+<a href="./posts/2024-04-24-recursive-algorithms-with-pyspark-2/index.html" class="no-external">In my last post, I described an example of recursive algorithms, the Fibonacci sequence, and showed that it can’t be solved with classic SQL tools like window functions. In…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2024-04-24-recursive-algorithms-with-pyspark-2/index.html">
+<a href="./posts/2024-04-24-recursive-algorithms-with-pyspark-2/index.html" class="no-external">
 <div class="listing-date">
 Apr 21, 2024
 </div>
@@ -238,23 +311,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="data,spark,python" data-listing-date-sort="1713672000000" data-listing-file-modified-sort="1713963798573" data-listing-reading-time-sort="1.83">
+<div class="quarto-post image-right" data-index="3" data-categories="data,spark,python" data-listing-date-sort="1713672000000" data-listing-file-modified-sort="1713963798573" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="366">
 <div class="thumbnail">
-<a href="./posts/2024-04-21-recursive-algorithms-with-pyspark-1/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2024-04-21-recursive-algorithms-with-pyspark-1/index.html"></a></p>
+<p><a href="./posts/2024-04-21-recursive-algorithms-with-pyspark-1/index.html" class="no-external"></a></p><a href="./posts/2024-04-21-recursive-algorithms-with-pyspark-1/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2024-04-21-recursive-algorithms-with-pyspark-1/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2024-04-21-recursive-algorithms-with-pyspark-1/index.html">
 <h3 class="no-anchor listing-title">
-A PySpark-native way to do recursion
+<a href="./posts/2024-04-21-recursive-algorithms-with-pyspark-1/index.html" class="no-external">A PySpark-native way to do recursion</a>
 </h3>
 <div class="listing-subtitle">
-Part 1: the Problem
+<a href="./posts/2024-04-21-recursive-algorithms-with-pyspark-1/index.html" class="no-external">Part 1: the Problem</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('data'); return false;">
 data
@@ -266,14 +335,12 @@ spark
 python
 </div>
 </div>
-<a href="./posts/2024-04-21-recursive-algorithms-with-pyspark-1/index.html">
 <div class="listing-description">
-I find lots of situations in my work where recursion in Spark dataframes would be useful. Recently, I needed to define a column with values that were based on each following value, recursively. That’s to say, each row could only be computed after the row before it.
+<a href="./posts/2024-04-21-recursive-algorithms-with-pyspark-1/index.html" class="no-external">I find lots of situations in my work where recursion in Spark dataframes would be useful. Recently, I needed to define a column with values that were based on each following…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2024-04-21-recursive-algorithms-with-pyspark-1/index.html">
+<a href="./posts/2024-04-21-recursive-algorithms-with-pyspark-1/index.html" class="no-external">
 <div class="listing-date">
 Apr 21, 2024
 </div>
@@ -283,23 +350,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="tech,remote work" data-listing-date-sort="1668747600000" data-listing-file-modified-sort="1713129944735" data-listing-reading-time-sort="8.88">
+<div class="quarto-post image-right" data-index="4" data-categories="tech,remote work" data-listing-date-sort="1668747600000" data-listing-file-modified-sort="1713129944735" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1776">
 <div class="thumbnail">
-<a href="./posts/2022-11-18-remote-work-config/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2022-11-18-remote-work-config/index.html"></a></p>
+<p><a href="./posts/2022-11-18-remote-work-config/index.html" class="no-external"></a></p><a href="./posts/2022-11-18-remote-work-config/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-11-18-remote-work-config/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-11-18-remote-work-config/index.html">
 <h3 class="no-anchor listing-title">
-How I work remotely
+<a href="./posts/2022-11-18-remote-work-config/index.html" class="no-external">How I work remotely</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-11-18-remote-work-config/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('tech'); return false;">
 tech
@@ -308,14 +371,12 @@ tech
 remote work
 </div>
 </div>
-<a href="./posts/2022-11-18-remote-work-config/index.html">
 <div class="listing-description">
-When I landed my job at Kin + Carta, I invested in some creature comforts for remote work. At Yale, I kept hoping the office was a few elusive weeks away, and that it wasn’t worth investing in gear that I would soon not need. That was silly at the time, but ridiculuous once I took a remote job. I began searching for a configuration that would: - save my neck the strain of looking down at a 13-inch laptop - save my back the pain of sitting in a $40 Ikea chair 8 hours a day - travel well - bring some aesthetic joy to my day - work for play as well as work
+<a href="./posts/2022-11-18-remote-work-config/index.html" class="no-external">When I landed my job at Kin + Carta, I invested in some creature comforts for remote work. At Yale, I kept hoping the office was a few elusive weeks away, and that it wasn’t…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-11-18-remote-work-config/index.html">
+<a href="./posts/2022-11-18-remote-work-config/index.html" class="no-external">
 <div class="listing-date">
 Nov 18, 2022
 </div>
@@ -325,23 +386,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="fitness,cycling,new haven,bucket list" data-listing-date-sort="1650513600000" data-listing-file-modified-sort="1668776439100" data-listing-reading-time-sort="8.775">
+<div class="quarto-post image-right" data-index="5" data-categories="fitness,cycling,new haven,bucket list" data-listing-date-sort="1650513600000" data-listing-file-modified-sort="1668776439100" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1755">
 <div class="thumbnail">
-<a href="./posts/2022-04-21-farmington-bike-century/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2022-04-21-farmington-bike-century/index.html"></a></p>
+<p><a href="./posts/2022-04-21-farmington-bike-century/index.html" class="no-external"></a></p><a href="./posts/2022-04-21-farmington-bike-century/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-04-21-farmington-bike-century/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-04-21-farmington-bike-century/index.html">
 <h3 class="no-anchor listing-title">
-Farmington Canal Trail Bike Century
+<a href="./posts/2022-04-21-farmington-bike-century/index.html" class="no-external">Farmington Canal Trail Bike Century</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-04-21-farmington-bike-century/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('fitness'); return false;">
 fitness
@@ -356,14 +413,12 @@ new haven
 bucket list
 </div>
 </div>
-<a href="./posts/2022-04-21-farmington-bike-century/index.html">
 <div class="listing-description">
-I learned to ride a bike just before I moved to New Haven. Living in a city, abandoning my boring, dangerous, radio-less car seemed like a great statement to make about myself and the world I wanted to see. Unfortunately, Amtrak is <em>expensive</em> and getting to the White Mountains is pretty hard without a car.
+<a href="./posts/2022-04-21-farmington-bike-century/index.html" class="no-external">I learned to ride a bike just before I moved to New Haven. Living in a city, abandoning my boring, dangerous, radio-less car seemed like a great statement to make about…<em></em></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-04-21-farmington-bike-century/index.html">
+<a href="./posts/2022-04-21-farmington-bike-century/index.html" class="no-external">
 <div class="listing-date">
 Apr 21, 2022
 </div>
@@ -373,23 +428,19 @@ Corey Runkel
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="code bits,R" data-listing-date-sort="1649736000000" data-listing-file-modified-sort="1650396728249" data-listing-reading-time-sort="2.565">
+<div class="quarto-post image-right" data-index="6" data-categories="code bits,R" data-listing-date-sort="1649736000000" data-listing-file-modified-sort="1650396728249" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="513">
 <div class="thumbnail">
-<a href="./posts/2022-04-09-tip-the-valet/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2022-04-09-tip-the-valet/index.html"></a></p>
+<p><a href="./posts/2022-04-09-tip-the-valet/index.html" class="no-external"></a></p><a href="./posts/2022-04-09-tip-the-valet/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-04-09-tip-the-valet/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-04-09-tip-the-valet/index.html">
 <h3 class="no-anchor listing-title">
-Tip the valet!
+<a href="./posts/2022-04-09-tip-the-valet/index.html" class="no-external">Tip the valet!</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-04-09-tip-the-valet/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('code bits'); return false;">
 code bits
@@ -398,14 +449,12 @@ code bits
 R
 </div>
 </div>
-<a href="./posts/2022-04-09-tip-the-valet/index.html">
 <div class="listing-description">
-Valet, the Bank of Canada’s API, did not have an R client when the YPFS was studying its COVID work, and I pretty much stick to R. So, to demonstrate that I could build a solution quickly, without reinventing the wheel, I wrote valet, which was just accepted by CRAN! If you have a tip for me, or a bug that needs fixing, let me know.
+<a href="./posts/2022-04-09-tip-the-valet/index.html" class="no-external">Valet, the Bank of Canada’s API, did not have an R client when the YPFS was studying its COVID work, and I pretty much stick to R. So, to demonstrate that I could build a…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-04-09-tip-the-valet/index.html">
+<a href="./posts/2022-04-09-tip-the-valet/index.html" class="no-external">
 <div class="listing-date">
 Apr 12, 2022
 </div>
@@ -415,23 +464,19 @@ Corey Runkel
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="open data,YPFS,code bits" data-listing-date-sort="1616558400000" data-listing-file-modified-sort="1649777632300" data-listing-reading-time-sort="2.42">
+<div class="quarto-post image-right" data-index="7" data-categories="open data,YPFS,code bits" data-listing-date-sort="1616558400000" data-listing-file-modified-sort="1649777632300" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="484">
 <div class="thumbnail">
-<a href="./posts/2021-03-24-ypfs-citation-style-language/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2021-03-24-ypfs-citation-style-language/index.html"></a></p>
+<p><a href="./posts/2021-03-24-ypfs-citation-style-language/index.html" class="no-external"></a></p><a href="./posts/2021-03-24-ypfs-citation-style-language/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2021-03-24-ypfs-citation-style-language/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2021-03-24-ypfs-citation-style-language/index.html">
 <h3 class="no-anchor listing-title">
-YPFS Citation Style Language
+<a href="./posts/2021-03-24-ypfs-citation-style-language/index.html" class="no-external">YPFS Citation Style Language</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-24-ypfs-citation-style-language/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('open data'); return false;">
 open data
@@ -443,14 +488,12 @@ YPFS
 code bits
 </div>
 </div>
-<a href="./posts/2021-03-24-ypfs-citation-style-language/index.html">
 <div class="listing-description">
-When I started at YPFS, we did all COVID all the time. I’d wake up, get paid to doomscroll, and pump out some blogs about what was happening. When we reverted to case-writing, a huge backlog of cases had to be prepped for publication. Many of these were years-old. They neither shared common formatting nor common citations, and—because the cases were so old—the original authors had moved on to bigger and better things. We needed to solve all the problems that come with a team distributed not only across space but also time.
+<a href="./posts/2021-03-24-ypfs-citation-style-language/index.html" class="no-external">When I started at YPFS, we did all COVID all the time. I’d wake up, get paid to doomscroll, and pump out some blogs about what was happening. When we reverted to…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-24-ypfs-citation-style-language/index.html">
+<a href="./posts/2021-03-24-ypfs-citation-style-language/index.html" class="no-external">
 <div class="listing-date">
 Mar 24, 2021
 </div>
@@ -460,32 +503,30 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="life" data-listing-date-sort="1615611600000" data-listing-file-modified-sort="1649777604160" data-listing-reading-time-sort="0.16">
+<div class="quarto-post image-right" data-index="8" data-categories="life" data-listing-date-sort="1615611600000" data-listing-file-modified-sort="1649777604160" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
 <div class="thumbnail">
-<p><a href="./posts/2021-03-13-morning-bike-ride-at-east-rock-park/index.html"> <img src="./posts/2021-03-13-morning-bike-ride-at-east-rock-park/featured.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2021-03-13-morning-bike-ride-at-east-rock-park/index.html" class="no-external"></a></p><a href="./posts/2021-03-13-morning-bike-ride-at-east-rock-park/index.html" class="no-external">
+<p><img src="./posts/2021-03-13-morning-bike-ride-at-east-rock-park/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2021-03-13-morning-bike-ride-at-east-rock-park/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2021-03-13-morning-bike-ride-at-east-rock-park/index.html">
 <h3 class="no-anchor listing-title">
-Morning bike ride at East Rock Park
+<a href="./posts/2021-03-13-morning-bike-ride-at-east-rock-park/index.html" class="no-external">Morning bike ride at East Rock Park</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-03-13-morning-bike-ride-at-east-rock-park/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('life'); return false;">
 life
 </div>
 </div>
-<a href="./posts/2021-03-13-morning-bike-ride-at-east-rock-park/index.html">
 <div class="listing-description">
-Spring returned to New Haven on Thursday! A lot evaporated overnight as temperatures rose, and I was fortunate to snap these photos.
+<a href="./posts/2021-03-13-morning-bike-ride-at-east-rock-park/index.html" class="no-external">Spring returned to New Haven on Thursday! A lot evaporated overnight as temperatures rose, and I was fortunate to snap these photos.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-03-13-morning-bike-ride-at-east-rock-park/index.html">
+<a href="./posts/2021-03-13-morning-bike-ride-at-east-rock-park/index.html" class="no-external">
 <div class="listing-date">
 Mar 13, 2021
 </div>
@@ -495,23 +536,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="film,culture,political economy,predictions" data-listing-date-sort="1607317200000" data-listing-file-modified-sort="1649777867700" data-listing-reading-time-sort="4.66">
+<div class="quarto-post image-right" data-index="9" data-categories="film,culture,political economy,predictions" data-listing-date-sort="1607317200000" data-listing-file-modified-sort="1649777867700" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="932">
 <div class="thumbnail">
-<a href="./posts/2020-12-07-how-long-do-actors-have-left/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2020-12-07-how-long-do-actors-have-left/index.html"></a></p>
+<p><a href="./posts/2020-12-07-how-long-do-actors-have-left/index.html" class="no-external"></a></p><a href="./posts/2020-12-07-how-long-do-actors-have-left/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2020-12-07-how-long-do-actors-have-left/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2020-12-07-how-long-do-actors-have-left/index.html">
 <h3 class="no-anchor listing-title">
-How long do actors have left?
+<a href="./posts/2020-12-07-how-long-do-actors-have-left/index.html" class="no-external">How long do actors have left?</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2020-12-07-how-long-do-actors-have-left/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('film'); return false;">
 film
@@ -526,14 +563,12 @@ political economy
 predictions
 </div>
 </div>
-<a href="./posts/2020-12-07-how-long-do-actors-have-left/index.html">
 <div class="listing-description">
-My friend Avital wrote a great essay last year about an Instagram influencer. The publication she released it has, unfortunately, flopped, but I will give the gist. Lil Miquela’s 2.9 million followers pale in comparison to the platform’s biggest stars, but she has something they do not: an endless future. Her computer-generated skin will never age, her fun setting will never be burdened by kids or sickness or hardship.
+<a href="./posts/2020-12-07-how-long-do-actors-have-left/index.html" class="no-external">My friend Avital wrote a great essay last year about an Instagram influencer. The publication she released it has, unfortunately, flopped, but I will give the gist. Lil…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2020-12-07-how-long-do-actors-have-left/index.html">
+<a href="./posts/2020-12-07-how-long-do-actors-have-left/index.html" class="no-external">
 <div class="listing-date">
 Dec 7, 2020
 </div>
@@ -543,23 +578,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="analysis,political economy" data-listing-date-sort="1605243600000" data-listing-file-modified-sort="1649777857200" data-listing-reading-time-sort="7.055">
+<div class="quarto-post image-right" data-index="10" data-categories="analysis,political economy" data-listing-date-sort="1605243600000" data-listing-file-modified-sort="1649777857200" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1411">
 <div class="thumbnail">
-<a href="./posts/2020-11-13-small-economies-face-mobile-payments/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2020-11-13-small-economies-face-mobile-payments/index.html"></a></p>
+<p><a href="./posts/2020-11-13-small-economies-face-mobile-payments/index.html" class="no-external"></a></p><a href="./posts/2020-11-13-small-economies-face-mobile-payments/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2020-11-13-small-economies-face-mobile-payments/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2020-11-13-small-economies-face-mobile-payments/index.html">
 <h3 class="no-anchor listing-title">
-Small economies face big mobile payments
+<a href="./posts/2020-11-13-small-economies-face-mobile-payments/index.html" class="no-external">Small economies face big mobile payments</a>
 </h3>
 <div class="listing-subtitle">
-Zimbabwe and Venezuela present different perspectives on forced dollarization
+<a href="./posts/2020-11-13-small-economies-face-mobile-payments/index.html" class="no-external">Zimbabwe and Venezuela present different perspectives on forced dollarization</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
 analysis
@@ -568,14 +599,12 @@ analysis
 political economy
 </div>
 </div>
-<a href="./posts/2020-11-13-small-economies-face-mobile-payments/index.html">
 <div class="listing-description">
-<em>Bloomberg Businessweek</em> published an article this week on the rise of mobile payments provider Zelle in Venezuela, where inflation has pushed the price of a café con leche to 890,000 bolivars. Zelle, a money transfer service owned by large US banks, is at first glance an unlikely actor in this story. Why would Venezuelans embrace a proxy of American financial power? The article argues that Zelle’s dollars offer hygienic access to a stable currency. Before covid, the Caracas-based consultancy Ecoanalítica estimated that only 15% of citizens have stable access to dollars. Zelle simply sends dollars around US banks, circumventing the need for physical currency in a dollar-strapped, pandemic-addled country.
+<a href="./posts/2020-11-13-small-economies-face-mobile-payments/index.html" class="no-external"><em>Bloomberg Businessweek</em> published an article this week on the rise of mobile payments provider Zelle in Venezuela, where inflation has pushed the price of a café con leche to…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2020-11-13-small-economies-face-mobile-payments/index.html">
+<a href="./posts/2020-11-13-small-economies-face-mobile-payments/index.html" class="no-external">
 <div class="listing-date">
 Nov 13, 2020
 </div>
@@ -585,23 +614,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="analysis,YPFS,political economy" data-listing-date-sort="1593576000000" data-listing-file-modified-sort="1649778670930" data-listing-reading-time-sort="7.68">
+<div class="quarto-post image-right" data-index="11" data-categories="analysis,YPFS,political economy" data-listing-date-sort="1593576000000" data-listing-file-modified-sort="1649778670930" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1536">
 <div class="thumbnail">
-<a href="./posts/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/index.html"></a></p>
+<p><a href="./posts/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/index.html" class="no-external"></a></p><a href="./posts/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/index_files/figure-html/plot-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/index.html">
 <h3 class="no-anchor listing-title">
-Reserve liquidity facilities shift from advanced economies to emerging markets
+<a href="./posts/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/index.html" class="no-external">Reserve liquidity facilities shift from advanced economies to emerging markets</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
 analysis
@@ -613,14 +638,12 @@ YPFS
 political economy
 </div>
 </div>
-<a href="./posts/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/index.html">
 <div class="listing-description">
-<strong>This post was originally published on the YPFS Systemic Risk blog</strong>
+<a href="./posts/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/index.html" class="no-external"><strong>This post was originally published on the YPFS Systemic Risk blog</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/index.html">
+<a href="./posts/2020-07-01-reserve-liquidity-facilities-shift-from-advanced-economies-to-emerging-markets/index.html" class="no-external">
 <div class="listing-date">
 Jul 1, 2020
 </div>
@@ -630,23 +653,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="analysis,political economy,YPFS" data-listing-date-sort="1592452800000" data-listing-file-modified-sort="1649780127070" data-listing-reading-time-sort="9.315">
+<div class="quarto-post image-right" data-index="12" data-categories="analysis,political economy,YPFS" data-listing-date-sort="1592452800000" data-listing-file-modified-sort="1649780127070" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1863">
 <div class="thumbnail">
-<a href="./posts/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors/index.html"></a></p>
+<p><a href="./posts/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors/index.html" class="no-external"></a></p><a href="./posts/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors/index_files/figure-html/reit_plot-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors/index.html">
 <h3 class="no-anchor listing-title">
-Debt Mounts for US Retail and Lodging Mortgagors
+<a href="./posts/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors/index.html" class="no-external">Debt Mounts for US Retail and Lodging Mortgagors</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
 analysis
@@ -658,14 +677,12 @@ political economy
 YPFS
 </div>
 </div>
-<a href="./posts/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors/index.html">
 <div class="listing-description">
-<strong>This post was originally published on the YPFS Systemic Risk blog</strong>
+<a href="./posts/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors/index.html" class="no-external"><strong>This post was originally published on the YPFS Systemic Risk blog</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors/index.html">
+<a href="./posts/2020-07-01-debt-mounts-for-us-retail-and-lodging-mortgagors/index.html" class="no-external">
 <div class="listing-date">
 Jun 18, 2020
 </div>
@@ -675,23 +692,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="analysis,political economy,YPFS" data-listing-date-sort="1591675200000" data-listing-file-modified-sort="1649777517280" data-listing-reading-time-sort="5.195">
+<div class="quarto-post image-right" data-index="13" data-categories="analysis,political economy,YPFS" data-listing-date-sort="1591675200000" data-listing-file-modified-sort="1649777517280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1039">
 <div class="thumbnail">
-<a href="./posts/2020-07-01-federal-reserve-further-expands-access-to-municipal-liquidity-facility/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2020-07-01-federal-reserve-further-expands-access-to-municipal-liquidity-facility/index.html"></a></p>
+<p><a href="./posts/2020-07-01-federal-reserve-further-expands-access-to-municipal-liquidity-facility/index.html" class="no-external"></a></p><a href="./posts/2020-07-01-federal-reserve-further-expands-access-to-municipal-liquidity-facility/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2020-07-01-federal-reserve-further-expands-access-to-municipal-liquidity-facility/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2020-07-01-federal-reserve-further-expands-access-to-municipal-liquidity-facility/index.html">
 <h3 class="no-anchor listing-title">
-Federal Reserve further expands access to Municipal Liquidity Facility
+<a href="./posts/2020-07-01-federal-reserve-further-expands-access-to-municipal-liquidity-facility/index.html" class="no-external">Federal Reserve further expands access to Municipal Liquidity Facility</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2020-07-01-federal-reserve-further-expands-access-to-municipal-liquidity-facility/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
 analysis
@@ -703,14 +716,12 @@ political economy
 YPFS
 </div>
 </div>
-<a href="./posts/2020-07-01-federal-reserve-further-expands-access-to-municipal-liquidity-facility/index.html">
 <div class="listing-description">
-<strong>This post was originally published on the YPFS Systemic Risk blog</strong>
+<a href="./posts/2020-07-01-federal-reserve-further-expands-access-to-municipal-liquidity-facility/index.html" class="no-external"><strong>This post was originally published on the YPFS Systemic Risk blog</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2020-07-01-federal-reserve-further-expands-access-to-municipal-liquidity-facility/index.html">
+<a href="./posts/2020-07-01-federal-reserve-further-expands-access-to-municipal-liquidity-facility/index.html" class="no-external">
 <div class="listing-date">
 Jun 9, 2020
 </div>
@@ -720,19 +731,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="film,analysis" data-listing-date-sort="1581742800000" data-listing-file-modified-sort="1649777466490" data-listing-reading-time-sort="3.63">
+<div class="quarto-post image-right" data-index="14" data-categories="film,analysis" data-listing-date-sort="1581742800000" data-listing-file-modified-sort="1649777466490" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="726">
 <div class="thumbnail">
-<p><a href="./posts/2020-02-15-david-lynch-is-toying-with-us/index.html"> <img src="https://media.npr.org/assets/img/2013/04/18/lynchrabbits1024_wide-81b3911888e86e687da1a0370b19cc026967ef0d.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2020-02-15-david-lynch-is-toying-with-us/index.html" class="no-external"></a></p><a href="./posts/2020-02-15-david-lynch-is-toying-with-us/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2020-02-15-david-lynch-is-toying-with-us/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2020-02-15-david-lynch-is-toying-with-us/index.html">
 <h3 class="no-anchor listing-title">
-David Lynch is Toying With Us
+<a href="./posts/2020-02-15-david-lynch-is-toying-with-us/index.html" class="no-external">David Lynch is Toying With Us</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2020-02-15-david-lynch-is-toying-with-us/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('film'); return false;">
 film
@@ -741,14 +752,12 @@ film
 analysis
 </div>
 </div>
-<a href="./posts/2020-02-15-david-lynch-is-toying-with-us/index.html">
 <div class="listing-description">
-I write this post while watching <em>Rabbits</em>, a work of exceptional mystery but unexceptional tension. Lynch casts two regulars—Laura Harring and Naomi Watts—opposite one newbie—Scott Coffey—as man-sized rabbits in what appears to be the <em>Blue Velvet</em> apartment set. These short films, available on YouTube, trip over several of Lynch’s signature aspects: characters sing haunting songs; mundane life is treated as a social experiment; and Angelo Baldametti’s synthesizers underscore everything. <em>Rabbits</em> insists that we examine our own tastes and be comfortable with those answers (and inevitably unanswered questions).
+<a href="./posts/2020-02-15-david-lynch-is-toying-with-us/index.html" class="no-external">I write this post while watching <em>Rabbits</em>, a work of exceptional mystery but unexceptional tension. Lynch casts two regulars—Laura Harring and Naomi Watts—opposite one…<em></em><em></em></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2020-02-15-david-lynch-is-toying-with-us/index.html">
+<a href="./posts/2020-02-15-david-lynch-is-toying-with-us/index.html" class="no-external">
 <div class="listing-date">
 Feb 15, 2020
 </div>
@@ -758,23 +767,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="film,analysis" data-listing-date-sort="1577250000000" data-listing-file-modified-sort="1649777408330" data-listing-reading-time-sort="5.07">
+<div class="quarto-post image-right" data-index="15" data-categories="film,analysis" data-listing-date-sort="1577250000000" data-listing-file-modified-sort="1649777408330" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1014">
 <div class="thumbnail">
-<a href="./posts/2019-12-25-just-mercy-review/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2019-12-25-just-mercy-review/index.html"></a></p>
+<p><a href="./posts/2019-12-25-just-mercy-review/index.html" class="no-external"></a></p><a href="./posts/2019-12-25-just-mercy-review/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2019-12-25-just-mercy-review/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2019-12-25-just-mercy-review/index.html">
 <h3 class="no-anchor listing-title">
-<em>Just Mercy</em> – a Legal Drama Adaptation That Fails to Do Justice to a Compelling Memoir
+<a href="./posts/2019-12-25-just-mercy-review/index.html" class="no-external"><em>Just Mercy</em> – a Legal Drama Adaptation That Fails to Do Justice to a Compelling Memoir</a>
 </h3>
 <div class="listing-subtitle">
-Lack of restraint renders this film adaptation of a nuanced tale about injustice into an overbearing platitude.
+<a href="./posts/2019-12-25-just-mercy-review/index.html" class="no-external">Lack of restraint renders this film adaptation of a nuanced tale about injustice into an overbearing platitude.</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('film'); return false;">
 film
@@ -783,14 +788,12 @@ film
 analysis
 </div>
 </div>
-<a href="./posts/2019-12-25-just-mercy-review/index.html">
 <div class="listing-description">
-<strong>Edit 1/20/2020: check out this article at <em>Pop Culture Bento</em>!</strong>
+<a href="./posts/2019-12-25-just-mercy-review/index.html" class="no-external"><strong>Edit 1/20/2020: check out this article at <em>Pop Culture Bento</em>!</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2019-12-25-just-mercy-review/index.html">
+<a href="./posts/2019-12-25-just-mercy-review/index.html" class="no-external">
 <div class="listing-date">
 Dec 25, 2019
 </div>
@@ -800,23 +803,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="film,analysis" data-listing-date-sort="1575090000000" data-listing-file-modified-sort="1649777330980" data-listing-reading-time-sort="2.145">
+<div class="quarto-post image-right" data-index="16" data-categories="film,analysis" data-listing-date-sort="1575090000000" data-listing-file-modified-sort="1649777330980" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="429">
 <div class="thumbnail">
-<a href="./posts/2019-11-30-jojo-rabbit-review/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2019-11-30-jojo-rabbit-review/index.html"></a></p>
+<p><a href="./posts/2019-11-30-jojo-rabbit-review/index.html" class="no-external"></a></p><a href="./posts/2019-11-30-jojo-rabbit-review/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2019-11-30-jojo-rabbit-review/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2019-11-30-jojo-rabbit-review/index.html">
 <h3 class="no-anchor listing-title">
-Jojo Rabbit Explores Universal Notions of Morality through a Childlike Perspective
+<a href="./posts/2019-11-30-jojo-rabbit-review/index.html" class="no-external">Jojo Rabbit Explores Universal Notions of Morality through a Childlike Perspective</a>
 </h3>
 <div class="listing-subtitle">
-Taika Waititi delivers laughs, tears, and smiles through sharp writing, vivid sets, and great performances.
+<a href="./posts/2019-11-30-jojo-rabbit-review/index.html" class="no-external">Taika Waititi delivers laughs, tears, and smiles through sharp writing, vivid sets, and great performances.</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('film'); return false;">
 film
@@ -825,14 +824,12 @@ film
 analysis
 </div>
 </div>
-<a href="./posts/2019-11-30-jojo-rabbit-review/index.html">
 <div class="listing-description">
-<strong>Edit 11/30/2019: check this article out at <em>Pop Culture Bento</em>!</strong>
+<a href="./posts/2019-11-30-jojo-rabbit-review/index.html" class="no-external"><strong>Edit 11/30/2019: check this article out at <em>Pop Culture Bento</em>!</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2019-11-30-jojo-rabbit-review/index.html">
+<a href="./posts/2019-11-30-jojo-rabbit-review/index.html" class="no-external">
 <div class="listing-date">
 Nov 30, 2019
 </div>
@@ -842,23 +839,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="culture,analysis" data-listing-date-sort="1574312400000" data-listing-file-modified-sort="1649777367190" data-listing-reading-time-sort="1.665">
+<div class="quarto-post image-right" data-index="17" data-categories="culture,analysis" data-listing-date-sort="1574312400000" data-listing-file-modified-sort="1649777367190" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="333">
 <div class="thumbnail">
-<a href="./posts/2019-11-21-american-heartbreak/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2019-11-21-american-heartbreak/index.html"></a></p>
+<p><a href="./posts/2019-11-21-american-heartbreak/index.html" class="no-external"></a></p><a href="./posts/2019-11-21-american-heartbreak/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2019-11-21-american-heartbreak/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2019-11-21-american-heartbreak/index.html">
 <h3 class="no-anchor listing-title">
-American Heartbreak
+<a href="./posts/2019-11-21-american-heartbreak/index.html" class="no-external">American Heartbreak</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2019-11-21-american-heartbreak/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('culture'); return false;">
 culture
@@ -867,14 +860,12 @@ culture
 analysis
 </div>
 </div>
-<a href="./posts/2019-11-21-american-heartbreak/index.html">
 <div class="listing-description">
-I am the American heartbreak–
+<a href="./posts/2019-11-21-american-heartbreak/index.html" class="no-external">I am the American heartbreak–</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2019-11-21-american-heartbreak/index.html">
+<a href="./posts/2019-11-21-american-heartbreak/index.html" class="no-external">
 <div class="listing-date">
 Nov 21, 2019
 </div>
@@ -884,36 +875,30 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="fitness" data-listing-date-sort="1573880400000" data-listing-file-modified-sort="1649777350190" data-listing-reading-time-sort="2.49">
+<div class="quarto-post image-right" data-index="18" data-categories="fitness" data-listing-date-sort="1573880400000" data-listing-file-modified-sort="1649777350190" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="498">
 <div class="thumbnail">
-<a href="./posts/2019-11-16-3-things-i-learned-from-my-marathon/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2019-11-16-3-things-i-learned-from-my-marathon/index.html"></a></p>
+<p><a href="./posts/2019-11-16-3-things-i-learned-from-my-marathon/index.html" class="no-external"></a></p><a href="./posts/2019-11-16-3-things-i-learned-from-my-marathon/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2019-11-16-3-things-i-learned-from-my-marathon/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2019-11-16-3-things-i-learned-from-my-marathon/index.html">
 <h3 class="no-anchor listing-title">
-3 Things I Learned from my Marathon
+<a href="./posts/2019-11-16-3-things-i-learned-from-my-marathon/index.html" class="no-external">3 Things I Learned from my Marathon</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2019-11-16-3-things-i-learned-from-my-marathon/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('fitness'); return false;">
 fitness
 </div>
 </div>
-<a href="./posts/2019-11-16-3-things-i-learned-from-my-marathon/index.html">
 <div class="listing-description">
-Let me avoid—for all our sakes—transforming my blog into a clichéd, over-exposed photo essay of my personal struggle running. That being said, I was struck, as it was impossible not to be, by several aspects of the race weekend:
+<a href="./posts/2019-11-16-3-things-i-learned-from-my-marathon/index.html" class="no-external">Let me avoid—for all our sakes—transforming my blog into a clichéd, over-exposed photo essay of my personal struggle running. That being said, I was struck, as it was…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2019-11-16-3-things-i-learned-from-my-marathon/index.html">
+<a href="./posts/2019-11-16-3-things-i-learned-from-my-marathon/index.html" class="no-external">
 <div class="listing-date">
 Nov 16, 2019
 </div>
@@ -923,23 +908,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="analysis,film" data-listing-date-sort="1573448400000" data-listing-file-modified-sort="1649777339010" data-listing-reading-time-sort="1.755">
+<div class="quarto-post image-right" data-index="19" data-categories="analysis,film" data-listing-date-sort="1573448400000" data-listing-file-modified-sort="1649777339010" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="351">
 <div class="thumbnail">
-<a href="./posts/2019-11-15-parasite-review/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2019-11-15-parasite-review/index.html"></a></p>
+<p><a href="./posts/2019-11-15-parasite-review/index.html" class="no-external"></a></p><a href="./posts/2019-11-15-parasite-review/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2019-11-15-parasite-review/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2019-11-15-parasite-review/index.html">
 <h3 class="no-anchor listing-title">
-Parasite Refreshes Horror with a Hefty Dose of Social Realism
+<a href="./posts/2019-11-15-parasite-review/index.html" class="no-external">Parasite Refreshes Horror with a Hefty Dose of Social Realism</a>
 </h3>
 <div class="listing-subtitle">
-Bong Joon-ho’s terrors proceed from the scraps discarded by the super-rich.
+<a href="./posts/2019-11-15-parasite-review/index.html" class="no-external">Bong Joon-ho’s terrors proceed from the scraps discarded by the super-rich.</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
 analysis
@@ -948,14 +929,12 @@ analysis
 film
 </div>
 </div>
-<a href="./posts/2019-11-15-parasite-review/index.html">
 <div class="listing-description">
-<strong>Edit 11/15/2019: check this article out at <em>Pop Culture Bento</em>!</strong>
+<a href="./posts/2019-11-15-parasite-review/index.html" class="no-external"><strong>Edit 11/15/2019: check this article out at <em>Pop Culture Bento</em>!</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2019-11-15-parasite-review/index.html">
+<a href="./posts/2019-11-15-parasite-review/index.html" class="no-external">
 <div class="listing-date">
 Nov 11, 2019
 </div>
@@ -965,23 +944,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="analysis,fitness" data-listing-date-sort="1571544000000" data-listing-file-modified-sort="1649779337770" data-listing-reading-time-sort="1.665">
+<div class="quarto-post image-right" data-index="20" data-categories="analysis,fitness" data-listing-date-sort="1571544000000" data-listing-file-modified-sort="1649779337770" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="333">
 <div class="thumbnail">
-<a href="./posts/2019-10-20-20-miles-later/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2019-10-20-20-miles-later/index.html"></a></p>
+<p><a href="./posts/2019-10-20-20-miles-later/index.html" class="no-external"></a></p><a href="./posts/2019-10-20-20-miles-later/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2019-10-20-20-miles-later/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2019-10-20-20-miles-later/index.html">
 <h3 class="no-anchor listing-title">
-20 Miles Later
+<a href="./posts/2019-10-20-20-miles-later/index.html" class="no-external">20 Miles Later</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2019-10-20-20-miles-later/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('analysis'); return false;">
 analysis
@@ -990,14 +965,12 @@ analysis
 fitness
 </div>
 </div>
-<a href="./posts/2019-10-20-20-miles-later/index.html">
 <div class="listing-description">
-In 4 weeks, I’ll toe the line at the VCU Health <sup>1</sup> Richmond Marathon. This last month has seen me run consistently farther than I ever had before, so I’ve had to find new places to keep my legs and mind busy. At four weeks out, most marathon plans advocate for a very long run, of about 20 miles. I did it yesterday, and I’m still not sure if my calves will be ready to go <em>next</em> Saturday, let alone tomorrow!
+<a href="./posts/2019-10-20-20-miles-later/index.html" class="no-external">In 4 weeks, I’ll toe the line at the VCU Health <sup>1</sup> Richmond Marathon. This last month has seen me run consistently farther than I ever had before, so I’ve had to find new…<em></em></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2019-10-20-20-miles-later/index.html">
+<a href="./posts/2019-10-20-20-miles-later/index.html" class="no-external">
 <div class="listing-date">
 Oct 20, 2019
 </div>
@@ -1007,19 +980,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="film,analysis" data-listing-date-sort="1566878400000" data-listing-file-modified-sort="1649779903810" data-listing-reading-time-sort="10.945">
+<div class="quarto-post image-right" data-index="21" data-categories="film,analysis" data-listing-date-sort="1566878400000" data-listing-file-modified-sort="1649779903810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2189">
 <div class="thumbnail">
-<p><a href="./posts/2019-08-27-vertigo-1958/index.html"> <img src="./posts/2019-08-27-vertigo-1958/featured.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2019-08-27-vertigo-1958/index.html" class="no-external"></a></p><a href="./posts/2019-08-27-vertigo-1958/index.html" class="no-external">
+<p><img src="./posts/2019-08-27-vertigo-1958/featured.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2019-08-27-vertigo-1958/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2019-08-27-vertigo-1958/index.html">
 <h3 class="no-anchor listing-title">
-Distortion in Vertigo (1958)
+<a href="./posts/2019-08-27-vertigo-1958/index.html" class="no-external">Distortion in Vertigo (1958)</a>
 </h3>
 <div class="listing-subtitle">
-The cinematography that makes Hitchcock’s masterpiece unsettle
+<a href="./posts/2019-08-27-vertigo-1958/index.html" class="no-external">The cinematography that makes Hitchcock’s masterpiece unsettle</a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('film'); return false;">
 film
@@ -1028,14 +1001,12 @@ film
 analysis
 </div>
 </div>
-<a href="./posts/2019-08-27-vertigo-1958/index.html">
 <div class="listing-description">
-<strong>Edit 10/20/2019: check this article out at <em>Pop Culture Bento</em>!</strong>
+<a href="./posts/2019-08-27-vertigo-1958/index.html" class="no-external"><strong>Edit 10/20/2019: check this article out at <em>Pop Culture Bento</em>!</strong></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2019-08-27-vertigo-1958/index.html">
+<a href="./posts/2019-08-27-vertigo-1958/index.html" class="no-external">
 <div class="listing-date">
 Aug 27, 2019
 </div>
@@ -1045,23 +1016,19 @@ corey
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="R,open data" data-listing-date-sort="1564804800000" data-listing-file-modified-sort="1649779437500" data-listing-reading-time-sort="0.91">
+<div class="quarto-post image-right" data-index="22" data-categories="R,open data" data-listing-date-sort="1564804800000" data-listing-file-modified-sort="1649779437500" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
 <div class="thumbnail">
-<a href="./posts/2019-08-03-federal-register-api/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2019-08-03-federal-register-api/index.html"></a></p>
+<p><a href="./posts/2019-08-03-federal-register-api/index.html" class="no-external"></a></p><a href="./posts/2019-08-03-federal-register-api/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2019-08-03-federal-register-api/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2019-08-03-federal-register-api/index.html">
 <h3 class="no-anchor listing-title">
-Federal Register API
+<a href="./posts/2019-08-03-federal-register-api/index.html" class="no-external">Federal Register API</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2019-08-03-federal-register-api/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
 R
@@ -1070,14 +1037,12 @@ R
 open data
 </div>
 </div>
-<a href="./posts/2019-08-03-federal-register-api/index.html">
 <div class="listing-description">
-I created an <strong>R</strong> client to fetch data from the Federal Register, replacing an R package that had not been updated for years. It was my first foray into APIs.
+<a href="./posts/2019-08-03-federal-register-api/index.html" class="no-external">I created an <strong>R</strong> client to fetch data from the Federal Register, replacing an R package that had not been updated for years. It was my first foray into APIs.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2019-08-03-federal-register-api/index.html">
+<a href="./posts/2019-08-03-federal-register-api/index.html" class="no-external">
 <div class="listing-date">
 Aug 3, 2019
 </div>
@@ -1119,9 +1084,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1133,17 +1112,51 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1153,43 +1166,308 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
